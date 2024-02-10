@@ -1,0 +1,55 @@
+{
+	"apiVersion": 3,
+	"name": "yuky/block-icons-google",
+	"title": "Icon",
+	"category": "media",
+	"description": "Adding and customizing Google icons directly through the Gutenberg block.",
+	"keywords": [
+		"google",
+		"font",
+		"block",
+		"icons",
+		"svg",
+		"graphic",
+		"icon"
+	],
+	"attributes": {
+		"title": {
+			"type": "string"
+		},		
+		"iconName": {
+			"type": "string"
+		},
+		"justification": {
+			"type": "string"
+		},
+		"fill": {
+			"type": "boolean",
+			"default": 0
+		},
+		"weight": {
+			"type": "number",
+			"default": 400
+		},
+		"grade": {
+			"type": "string",
+			"default": "0"
+		},
+		"opsz": {
+			"type": "string",
+			"default": "24"
+		},
+		"fontSize": {
+			"type": "number",
+			"default": 70
+		},
+		"color": {
+			"type": "string",
+			"default": "#333"
+		}
+	},
+	"textdomain": "block-icons",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.min.css",
+	"style": "file:./index.min.css"
+}
