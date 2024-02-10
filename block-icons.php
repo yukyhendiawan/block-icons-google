@@ -16,12 +16,12 @@
  * Plugin Name:       Block Icons: Google Icons for Editor Block
  * Plugin URI:        https://yukyhendiawan.com
  * Description:       Block Icon is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Yuky Hendiawan
  * Author URI:        https://yukyhendiawan.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       block-icons
+ * Text Domain:       block-icons-google
  * Domain Path:       /languages
  */
 
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Rename this for your plugin and update it as you release new versions.
  */
 define( 'BLOCK_ICONS_NAME', 'Block Icons Google' );
-define( 'BLOCK_ICONS_VERSION', '1.0.0' );
+define( 'BLOCK_ICONS_VERSION', '1.0.1' );
 
 /**
  * The code that runs during plugin activation.

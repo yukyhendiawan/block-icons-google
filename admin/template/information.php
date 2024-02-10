@@ -219,6 +219,17 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                         </ul>
                     </div>
                     <div class="changelog-list">
+                    <section>
+                            <h2><?php esc_html_e('Version: 1.0.1', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 10, 2024', 'block-icons-google'); ?></span></h2>
+                            <div class="release">
+                                <ul>
+                                    <li>
+                                        <span class="fix"></span>
+                                        <?php esc_html_e('Text domain', 'block-icons-google'); ?>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>                        
                         <section>
                             <h2><?php esc_html_e('Version: 1.0.0', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 10, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
