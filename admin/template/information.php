@@ -220,7 +220,7 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                     </div>
                     <div class="changelog-list">
                         <section>
-                            <h2><?php esc_html_e('Version: 1.0.0', 'block-icons-google'); ?><span><?php esc_html_e('Released on January 20, 2024', 'block-icons-google'); ?></span></h2>
+                            <h2><?php esc_html_e('Version: 1.0.0', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 10, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
                                 <ul>
                                     <li>
