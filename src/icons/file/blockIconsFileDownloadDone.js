@@ -1,3 +1,3 @@
 export const blockIconsFileDownloadDone = (
-	<span className='material-symbols-outlined'>file_download_done</span>
+	<span className='material-symbols-outlined'>download_done</span>
 );

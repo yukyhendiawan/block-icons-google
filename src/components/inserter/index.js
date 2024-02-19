@@ -166,7 +166,14 @@ export default function Inserter(props) {
 							onClick={() => onClickCategory(category)}
 							isPressed={isActive}
 						>
-							{categoryTitle}
+							{categoryTitle.includes("New") ? (
+								<>
+								{categoryTitle.replace("New", "")}
+								<span className="new">{__('New', 'block-icons-google')}</span>
+								</>
+							) : (
+								<>{categoryTitle}</>
+							)}
 							<span>
 								{category === 'all__' + type.type
 									? type.count
