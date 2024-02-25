@@ -48,6 +48,13 @@ Once the installation is complete, click the "Activate" button that appears.
 4. Once the popup appears, please choose one of the icons and click on it
 5. You can apply styles according to your preferences (optional)
 
+== Screenshots ==
+
+1. Step1.
+2. Step2.
+3. Step3.
+4. Step4.
+
 == Contribute ==
 
 Contributions are always open to those who wish to participate in the further development of this plugin. [Github](https://github.com/yukyhendiawan/block-icons).
