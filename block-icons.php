@@ -13,9 +13,9 @@
  * @package           Block_Icons
  *
  * @wordpress-plugin
- * Plugin Name:       Block Icons: Google Icons for Editor Block
+ * Plugin Name:       Google Block Icons Library Collection
  * Plugin URI:        https://yukyhendiawan.com
- * Description:       Block Icon is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks.
+ * Description:       Google Block Icons Library Collection is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks.
  * Version:           1.0.1
  * Author:            Yuky Hendiawan
  * Author URI:        https://yukyhendiawan.com/
