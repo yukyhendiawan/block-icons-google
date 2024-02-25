@@ -220,6 +220,25 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                     </div>
                     <div class="changelog-list">
                     <section>
+                            <h2><?php esc_html_e('Version: 1.1.1', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 25, 2024', 'block-icons-google'); ?></span></h2>
+                            <div class="release">
+                                <ul>
+                                    <li>
+                                        <span class="fix"></span>
+                                        <?php esc_html_e('Data Escape', 'block-icons-google'); ?>
+                                    </li>
+                                    <li>
+                                        <span class="fix"></span>
+                                        <?php esc_html_e('Plugin Check', 'block-icons-google'); ?>
+                                    </li>
+                                    <li>
+                                        <span class="update"></span>
+                                        <?php esc_html_e('Rename plugin', 'block-icons-google'); ?>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>                           
+                    <section>
                             <h2><?php esc_html_e('Version: 1.1.0', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 25, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
                                 <ul>
