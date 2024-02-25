@@ -18423,22 +18423,26 @@ const audioAndVideoIcons = [{
   title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Audioandvideo Play Arrow', 'block-icons-google'),
   icon: _audio_and_video__WEBPACK_IMPORTED_MODULE_6__.blockIconsAudioandvideoPlayArrow,
   categories: ['audio-and-video']
-}, {
-  name: 'blockIconsAudioandvideoPlayCircleFilled',
-  title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Audioandvideo Play Circle Filled', 'block-icons-google'),
-  icon: _audio_and_video__WEBPACK_IMPORTED_MODULE_6__.blockIconsAudioandvideoPlayCircleFilled,
-  categories: ['audio-and-video']
-}, {
-  name: 'blockIconsAudioandvideoPlayCircle',
-  title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Audioandvideo Play Circle', 'block-icons-google'),
-  icon: _audio_and_video__WEBPACK_IMPORTED_MODULE_6__.blockIconsAudioandvideoPlayCircle,
-  categories: ['audio-and-video']
-}, {
-  name: 'blockIconsAudioandvideoPlayCircleOutline',
-  title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Audioandvideo Play Circle Outline', 'block-icons-google'),
-  icon: _audio_and_video__WEBPACK_IMPORTED_MODULE_6__.blockIconsAudioandvideoPlayCircleOutline,
-  categories: ['audio-and-video']
-}, {
+},
+// {
+//     name: 'blockIconsAudioandvideoPlayCircleFilled',
+//     title: __('Audioandvideo Play Circle Filled', 'block-icons-google'),
+//     icon: blockIconsAudioandvideoPlayCircleFilled,
+//     categories: ['audio-and-video'],
+// },
+// {
+//     name: 'blockIconsAudioandvideoPlayCircle',
+//     title: __('Audioandvideo Play Circle', 'block-icons-google'),
+//     icon: blockIconsAudioandvideoPlayCircle,
+//     categories: ['audio-and-video'],
+// },
+// {
+//     name: 'blockIconsAudioandvideoPlayCircleOutline',
+//     title: __('Audioandvideo Play Circle Outline', 'block-icons-google'),
+//     icon: blockIconsAudioandvideoPlayCircleOutline,
+//     categories: ['audio-and-video'],
+// },
+{
   name: 'blockIconsAudioandvideoPlaylistAddCheck',
   title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Audioandvideo Playlist Add Check', 'block-icons-google'),
   icon: _audio_and_video__WEBPACK_IMPORTED_MODULE_6__.blockIconsAudioandvideoPlaylistAddCheck,
@@ -21480,12 +21484,14 @@ const mapsIcons = [{
   title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Celebration', 'block-icons-google'),
   icon: _maps__WEBPACK_IMPORTED_MODULE_23__.blockIconsMapsCelebration,
   categories: ['maps']
-}, {
-  name: 'blockIconsMapsDeliveryDining',
-  title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Delivery Dining', 'block-icons-google'),
-  icon: _maps__WEBPACK_IMPORTED_MODULE_23__.blockIconsMapsDeliveryDining,
-  categories: ['maps']
-}, {
+},
+// {
+//     name: 'blockIconsMapsDeliveryDining',
+//     title: __('Delivery Dining', 'block-icons-google'),
+//     icon: blockIconsMapsDeliveryDining,
+//     categories: ['maps'],
+// },
+{
   name: 'blockIconsMapsDesignServices',
   title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('Design Services', 'block-icons-google'),
   icon: _maps__WEBPACK_IMPORTED_MODULE_23__.blockIconsMapsDesignServices,
