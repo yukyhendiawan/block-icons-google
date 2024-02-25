@@ -20,7 +20,7 @@ The main advantage of Google Block Icons Library Collection lies in its simplici
 3. Click the Icon Library button
 4. Once the popup appears, please choose one of the icons and click on it
 5. You can apply styles according to your preferences (optional)
-![App Screenshot](https://yukyhendiawan.com/wp-content/uploads/2024/01/step1.png)
+![App Screenshot](https://yukyhendiawan.com/wp-content/uploads/2024/02/step1.png)
 
 ## Requirements
 
