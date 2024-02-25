@@ -62,23 +62,22 @@ class Block_Icons_Notices
 		if ( get_option( 'block_icons_active_notices_option', false ) ) :
 ?>
 		<div class="notice notice-success notice-block-icons is-dismissible">
-			<?php $plugin_name = BLOCK_ICONS_NAME; ?>
-			<h2><?php esc_html_e("Hi there! Thank you for installing the $plugin_name Plugin!", 'hendky'); ?></h2>
-			<p><?php esc_html_e('We hope this plugin is beneficial for many people.', 'hendky'); ?></p>
-			<p><?php esc_html_e('For usage instructions, please refer to the Usage Guide .', 'hendky'); ?></p>
+			<h2><?php esc_html_e("Hi there! Thank you for installing the Block Icons Google Plugin!", 'block-icons-google'); ?></h2>
+			<p><?php esc_html_e('We hope this plugin is beneficial for many people.', 'block-icons-google'); ?></p>
+			<p><?php esc_html_e('For usage instructions, please refer to the Usage Guide .', 'block-icons-google'); ?></p>
 			<div class="box-btn">
 				<a href="<?php echo esc_url( admin_url( 'themes.php?page=block-icons-google' ) ); ?>" class="usage-guide">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
 						<path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z" />
 					</svg>
 					</svg>
-					<?php esc_html_e('Usage Guide ', 'hendky'); ?>
+					<?php esc_html_e('Usage Guide ', 'block-icons-google'); ?>
 				</a>
 				<a href="https://www.upwork.com/freelancers/~01559dc6ef8a329c82" class="hire-developer" target="_blank">
 					<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
 						<path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"></path>
 					</svg>
-					<?php esc_html_e('Hire Developer!', 'hendky'); ?>
+					<?php esc_html_e('Hire Developer!', 'block-icons-google'); ?>
 				</a>
 			</div>
 		</div>

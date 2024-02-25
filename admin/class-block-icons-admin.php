@@ -157,13 +157,15 @@ class Block_Icons_Admin {
 
 			if ( ! is_wp_error( $response ) && wp_remote_retrieve_response_code( $response ) === 200 ) {
 				// If the response code is 200, redirect the user
-				exit( wp_redirect( $redirect_url ) );
+				wp_redirect( esc_url( $redirect_url ) );
+				exit;
 			} else {
 				// If there is an error or the response code is not 200, handle accordingly
 				// You can log the error, display a message, or take other actions
 				error_log( 'Error accessing ' . $redirect_url );
 				// Handle the error, for example, redirect to another page
-				exit( wp_redirect( admin_url() ) );
+				wp_redirect( esc_url( admin_url() ) );
+				exit;
 			}
 		}
 	}
