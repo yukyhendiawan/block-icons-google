@@ -8,7 +8,7 @@
 	"scripts": {
 		"check-updates": "ncu",
 		"update-packages": "ncu -u",
-		"bundle": "dir-archiver --src . --dest ../block-icons-google/block-icons.zip --exclude ./gulp ./node_modules ./vendor ./.git ./src .gitignore gulpfile.js package-lock.json package.json README.md",
+		"bundle": "dir-archiver --src . --dest ../block-icons-google/block-icons-google.zip --exclude ./node_modules ./vendor ./.git ./src .gitignore package-lock.json package.json README.md webpack.config.js",
 		"build": "wp-scripts build",
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
@@ -16,11 +16,7 @@
 		"lint:js:src": "wp-scripts lint-js ./src",
 		"lint:js:src:fix": "wp-scripts lint-js ./src --fix",
 		"start": "wp-scripts start",
-		"update-pot": "wp i18n make-pot . languages/block-icons-google.pot --exclude=src",
-		"build:sass": "gulp compile-sass",
-		"watch:sass": "gulp watch-sass",
-		"build:js": "gulp js",
-		"watch:js": "gulp watch-js"
+		"update-pot": "wp i18n make-pot . languages/block-icons-google.pot --exclude=src"
 	},
 	"dependencies": {
 		"@wordpress/block-editor": "^12.19.0",
@@ -36,13 +32,7 @@
 		"@wordpress/scripts": "^27.2.0",
 		"dir-archiver": "^2.1.0",
 		"git-commit-msg-linter": "^5.0.6",
-		"gulp": "^4.0.2",
-		"gulp-clean-css": "^4.3.0",
-		"gulp-rename": "^2.0.0",
-		"gulp-replace": "^1.1.4",
-		"gulp-sass": "^5.1.0",
-		"gulp-sourcemaps": "^3.0.0",
-		"gulp-uglify": "^3.0.2",
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"webpack-remove-empty-scripts": "^1.0.4"
 	}
 }

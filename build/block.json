@@ -50,6 +50,6 @@
   },
   "textdomain": "block-icons",
   "editorScript": "file:./index.js",
-  "editorStyle": "file:./editor.min.css",
-  "style": "file:./index.min.css"
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
 }
