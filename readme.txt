@@ -13,9 +13,9 @@ Add icons from the Google Font library. You can effortlessly add and customize G
 
 == Description ==
 
-Google Block Icons Library Collection is a Gutenberg plugin specifically designed to streamline user experience in showcasing a collection of Google icons. With this plugin, you can effortlessly add and customize Google icons directly through the Gutenberg block.
+Block Icons: Google Library Collection is a Gutenberg plugin specifically designed to streamline user experience in showcasing a collection of Google icons. With this plugin, you can effortlessly add and customize Google icons directly through the Gutenberg block.
 
-The main advantage of Google Block Icons Library Collection lies in its simplicity when integrating Google icons into WordPress pages or posts. By utilizing the Gutenberg block, this process becomes more straightforward without the need to deal with code.
+The main advantage of Block Icons: Google Library Collection lies in its simplicity when integrating Google icons into WordPress pages or posts. By utilizing the Gutenberg block, this process becomes more straightforward without the need to deal with code.
 
 === Features ===
 
