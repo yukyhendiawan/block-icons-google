@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/yukyhendiawan
 Tags: icon, icons, google, font, block
 Requires at least: 6.3
 Tested up to: 6.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,10 +50,10 @@ Once the installation is complete, click the "Activate" button that appears.
 
 == Screenshots ==
 
-1. Step1.
-2. Step2.
-3. Step3.
-4. Step4.
+1. Step 1: Please select the Icon block in the Gutenberg Editor.
+2. Step 2: Click on the Icon Library icon.
+3. Step 3: Choose one of the icons.
+4. Step 4: You can add icon styles (optional).
 
 == Contribute ==
 
