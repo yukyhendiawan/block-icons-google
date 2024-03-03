@@ -2,20 +2,20 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Block Icons: Google Icons for Editor Block 1.0.0\n"
+"Project-Id-Version: Block Icons: Google Library Collection 1.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/block-icons-google\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-10T10:00:15+07:00\n"
+"POT-Creation-Date: 2024-03-03T12:04:47+07:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
-"X-Domain: block-icons\n"
+"X-Domain: block-icons-google\n"
 
 #. Plugin Name of the plugin
-msgid "Block Icons: Google Icons for Editor Block"
+msgid "Block Icons: Google Library Collection"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -23,10 +23,11 @@ msgid "https://yukyhendiawan.com"
 msgstr ""
 
 #. Description of the plugin
-msgid "Block Icon is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks."
+msgid "Block Icons: Google Library Collection is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks."
 msgstr ""
 
 #. Author of the plugin
+#: admin/template/information.php:197
 msgid "Yuky Hendiawan"
 msgstr ""
 
@@ -34,12 +35,6205 @@ msgstr ""
 msgid "https://yukyhendiawan.com/"
 msgstr ""
 
-#: admin/template/sidebar-information.php:22
-msgid "Upwork"
+#: admin/class-block-icons-admin.php:115
+#: admin/class-block-icons-admin.php:116
+msgid "Block Icons"
 msgstr ""
 
-#: admin/template/sidebar-information.php:30
-msgid "yukyhendiawan1998@gmail.com"
+#: admin/notices.php:65
+msgid "Hi there! Thank you for installing the Block Icons Google Plugin!"
+msgstr ""
+
+#: admin/notices.php:66
+msgid "We hope this plugin is beneficial for many people."
+msgstr ""
+
+#: admin/notices.php:67
+msgid "For usage instructions, please refer to the Usage Guide ."
+msgstr ""
+
+#: admin/notices.php:73
+#: admin/template/information.php:42
+msgid "Hire Developer!"
+msgstr ""
+
+#: admin/notices.php:80
+#: admin/template/information.php:55
+#: admin/template/information.php:71
+msgid "Usage Guide "
+msgstr ""
+
+#: admin/template/information.php:29
+msgid "Block Icon is a Gutenberg plugin specifically designed to facilitate displaying a collection of Google icons."
+msgstr ""
+
+#: admin/template/information.php:36
+msgid "Donate"
+msgstr ""
+
+#: admin/template/information.php:56
+msgid "Report "
+msgstr ""
+
+#: admin/template/information.php:57
+msgid "Changelog "
+msgstr ""
+
+#: admin/template/information.php:74
+msgid "Welcome to our plugin page! With this plugin, you can easily add icons to your content through the Gutenberg Editor. Here are simple steps to get started:"
+msgstr ""
+
+#: admin/template/information.php:80
+msgid "Access the Gutenberg Editor:"
+msgstr ""
+
+#: admin/template/information.php:82
+msgid "Open your WordPress editor and select or create a post or page using Gutenberg."
+msgstr ""
+
+#: admin/template/information.php:85
+msgid "Go to Gutenberg Media Category Block and Choose an Icons:"
+msgstr ""
+
+#: admin/template/information.php:87
+msgid "Locate the \"Media Category\" option within the Gutenberg block. Choose the \"Icons\" and select an icon that suits your needs."
+msgstr ""
+
+#: admin/template/information.php:90
+msgid "Click the Icon Library Button:"
+msgstr ""
+
+#: admin/template/information.php:92
+msgid "After selecting the icon category, click the \"Icon Library\" button to open the available icon library."
+msgstr ""
+
+#: admin/template/information.php:95
+msgid "Choose an Icon:"
+msgstr ""
+
+#: admin/template/information.php:97
+msgid "Select one icon from the library. Click on the desired icon to choose it."
+msgstr ""
+
+#: admin/template/information.php:100
+msgid "Apply Styles (Optional):"
+msgstr ""
+
+#: admin/template/information.php:102
+msgid "If you want to customize the icon style to match your preferences, you can do so after selecting the icon. Choose the style options that complement your page design."
+msgstr ""
+
+#: admin/template/information.php:111
+msgid "Step 1: Please select the Icon block in the Gutenberg Editor."
+msgstr ""
+
+#: admin/template/information.php:115
+msgid "Step 2: Click on the Icon Library icon."
+msgstr ""
+
+#: admin/template/information.php:119
+msgid "Step 3: Choose one of the icons."
+msgstr ""
+
+#: admin/template/information.php:123
+msgid "Step 4: You can add icon styles (optional)."
+msgstr ""
+
+#: admin/template/information.php:127
+msgid "Now, you are ready to effortlessly add icons to your content through the Gutenberg Editor. If you have any further questions or need additional assistance, feel free to contact us. Happy creating!\""
+msgstr ""
+
+#: admin/template/information.php:147
+msgid "Bug Report"
+msgstr ""
+
+#. translators: %s: Theme name
+#: admin/template/information.php:151
+msgid "If you encounter any bugs or issues while using the Plugin, we encourage you to promptly report them to us. Reporting bugs is a crucial step in ensuring quick updates and fixes, allowing you to continue experiencing optimal performance with our WordPress Plugin."
+msgstr ""
+
+#: admin/template/information.php:159
+msgid "Below are the steps to report a bug:"
+msgstr ""
+
+#: admin/template/information.php:165
+msgid "Identify the Bug:"
+msgstr ""
+
+#: admin/template/information.php:166
+msgid "Please try to identify and understand the issue or bug you encounter. Ensure to record details on how the bug manifests and its impact on the use of the Plugin."
+msgstr ""
+
+#: admin/template/information.php:170
+msgid "Provide Detailed Explanation:"
+msgstr ""
+
+#: admin/template/information.php:171
+msgid "When reporting the bug to us, offer a clear and detailed explanation of the problem you are facing."
+msgstr ""
+
+#: admin/template/information.php:175
+msgid "Report the Bug:"
+msgstr ""
+
+#: admin/template/information.php:176
+msgid "Kindly report the bug through "
+msgstr ""
+
+#: admin/template/information.php:178
+msgid "The Block Icons WordPress Plugin forum"
+msgstr ""
+
+#: admin/template/information.php:180
+msgid " or via "
+msgstr ""
+
+#: admin/template/information.php:182
+msgid "GitHub Issues."
+msgstr ""
+
+#: admin/template/information.php:184
+msgid "Include the information you have gathered about the bug in your report."
+msgstr ""
+
+#: admin/template/information.php:191
+msgid "Your support and cooperation in reporting the bug are highly appreciated. We will make every effort to address the bug as quickly as possible so that you can continue enjoying the use of the Plugin without disruption."
+msgstr ""
+
+#: admin/template/information.php:196
+msgid "Best regards,"
+msgstr ""
+
+#: admin/template/information.php:218
+msgid "Changelog"
+msgstr ""
+
+#: admin/template/information.php:223
+#: build/index.js:233
+#: build/index.js:206
+msgid "New"
+msgstr ""
+
+#: admin/template/information.php:227
+msgid "Update"
+msgstr ""
+
+#: admin/template/information.php:231
+msgid "Fix"
+msgstr ""
+
+#: admin/template/information.php:237
+msgid "Version: 1.1.2"
+msgstr ""
+
+#: admin/template/information.php:237
+#: admin/template/information.php:250
+#: admin/template/information.php:269
+msgid "Released on February 25, 2024"
+msgstr ""
+
+#: admin/template/information.php:242
+msgid "Style Notices"
+msgstr ""
+
+#: admin/template/information.php:244
+msgid "Update Usage Guide"
+msgstr ""
+
+#: admin/template/information.php:250
+msgid "Version: 1.1.1"
+msgstr ""
+
+#: admin/template/information.php:255
+msgid "Data Escape"
+msgstr ""
+
+#: admin/template/information.php:259
+msgid "Plugin Check"
+msgstr ""
+
+#: admin/template/information.php:263
+msgid "Rename plugin"
+msgstr ""
+
+#: admin/template/information.php:269
+msgid "Version: 1.1.0"
+msgstr ""
+
+#: admin/template/information.php:274
+msgid "Text Domain"
+msgstr ""
+
+#: admin/template/information.php:278
+msgid "Update Icons"
+msgstr ""
+
+#: admin/template/information.php:282
+msgid "Added webpack"
+msgstr ""
+
+#: admin/template/information.php:288
+msgid "Version: 1.0.0"
+msgstr ""
+
+#: admin/template/information.php:288
+msgid "Released on February 10, 2024"
+msgstr ""
+
+#: admin/template/information.php:293
+msgid "Initial release"
+msgstr ""
+
+#: admin/template/sidebar-information.php:8
+msgid "About Developer"
+msgstr ""
+
+#: admin/template/sidebar-information.php:10
+msgid "Hello, I'm Yuky Hendiawan, an experienced WordPress developer with over 5 years of expertise."
+msgstr ""
+
+#: admin/template/sidebar-information.php:11
+msgid "As a Freelancer, I am actively engaged in a variety of WordPress development projects."
+msgstr ""
+
+#: admin/template/sidebar-information.php:12
+msgid "My expertise includes creating plugins, designing custom themes, tailoring both plugins and themes to meet specific requirements."
+msgstr ""
+
+#: admin/template/sidebar-information.php:13
+msgid "If you need a WordPress developer, feel free to contact me."
+msgstr ""
+
+#: admin/template/sidebar-information.php:14
+msgid "Contact:"
+msgstr ""
+
+#: build/index.js:190
+#: build/index.js:148
+msgid "All"
+msgstr ""
+
+#: build/index.js:254
+#: build/index.js:249
+msgid "No results found."
+msgstr ""
+
+#: build/index.js:257
+#: build/index.js:357
+#: build/index.js:256
+#: build/index.js:373
+msgid "Icon Library"
+msgstr ""
+
+#. translators: %1$s: Number of icons retruned from search, %2$s: the search input
+#: build/index.js:279
+#: build/index.js:282
+msgid "%1$s search result for \"%2$s\""
+msgid_plural "%1$s search results for \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/index.js:326
+#: build/index.js:327
+#: build/index.js:330
+msgid "Choose an icon from the library."
+msgstr ""
+
+#: build/index.js:328
+#: build/index.js:334
+msgid "Select an icon from the Google Font Icons library."
+msgstr ""
+
+#: build/index.js:329
+#: build/index.js:338
+msgid "Explore the icon library and choose one."
+msgstr ""
+
+#: build/index.js:349
+#: build/index.js:365
+msgid "Icon"
+msgstr ""
+
+#: build/index.js:470
+#: build/index.js:17844
+#: build/index.js:483
+#: build/index.js:4495
+msgid "Settings"
+msgstr ""
+
+#: build/index.js:476
+#: build/index.js:485
+msgid "Color"
+msgstr ""
+
+#: build/index.js:483
+#: build/index.js:495
+msgid "Font Size"
+msgstr ""
+
+#: build/index.js:498
+#: build/index.js:512
+msgid "Weight"
+msgstr ""
+
+#: build/index.js:507
+#: build/index.js:522
+msgid "Grade"
+msgstr ""
+
+#: build/index.js:523
+#: build/index.js:534
+msgid "Optical Size"
+msgstr ""
+
+#: build/index.js:17704
+#: build/index.js:4327
+msgid "Account Circle"
+msgstr ""
+
+#: build/index.js:17709
+#: build/index.js:4333
+msgid "Calendar Today"
+msgstr ""
+
+#: build/index.js:17714
+#: build/index.js:4339
+msgid "Check Circle"
+msgstr ""
+
+#: build/index.js:17719
+#: build/index.js:4345
+msgid "Check Circle Outline"
+msgstr ""
+
+#: build/index.js:17724
+#: build/index.js:4351
+msgid "Dashboard"
+msgstr ""
+
+#: build/index.js:17729
+#: build/index.js:4357
+msgid "Delete"
+msgstr ""
+
+#: build/index.js:17734
+#: build/index.js:4363
+msgid "Description"
+msgstr ""
+
+#: build/index.js:17739
+#: build/index.js:4369
+msgid "Done"
+msgstr ""
+
+#: build/index.js:17744
+#: build/index.js:4375
+msgid "Event"
+msgstr ""
+
+#: build/index.js:17749
+#: build/index.js:23160
+#: build/index.js:4381
+#: build/index.js:11945
+msgid "Face"
+msgstr ""
+
+#: build/index.js:17754
+#: build/index.js:4387
+msgid "Favorite Border"
+msgstr ""
+
+#: build/index.js:17759
+#: build/index.js:4393
+msgid "Favorite"
+msgstr ""
+
+#: build/index.js:17764
+#: build/index.js:4399
+msgid "Filter Alt"
+msgstr ""
+
+#: build/index.js:17769
+#: build/index.js:4405
+msgid "Fingerprint"
+msgstr ""
+
+#: build/index.js:17774
+#: build/index.js:4411
+msgid "Help"
+msgstr ""
+
+#: build/index.js:17779
+#: build/index.js:4417
+msgid "Help Outline"
+msgstr ""
+
+#: build/index.js:17784
+#: build/index.js:4423
+msgid "Highlight Off"
+msgstr ""
+
+#: build/index.js:17789
+#: build/index.js:24329
+#: build/index.js:4429
+#: build/index.js:13540
+msgid "Home"
+msgstr ""
+
+#: build/index.js:17794
+#: build/index.js:4435
+msgid "Info"
+msgstr ""
+
+#: build/index.js:17799
+#: build/index.js:4441
+msgid "Language"
+msgstr ""
+
+#: build/index.js:17804
+#: build/index.js:4447
+msgid "List"
+msgstr ""
+
+#: build/index.js:17809
+#: build/index.js:4453
+msgid "Lock"
+msgstr ""
+
+#: build/index.js:17814
+#: build/index.js:4459
+msgid "Login"
+msgstr ""
+
+#: build/index.js:17819
+#: build/index.js:4465
+msgid "Logout"
+msgstr ""
+
+#: build/index.js:17824
+#: build/index.js:4471
+msgid "Manage Accounts"
+msgstr ""
+
+#: build/index.js:17829
+#: build/index.js:4477
+msgid "Paid"
+msgstr ""
+
+#: build/index.js:17834
+#: build/index.js:4483
+msgid "Schedule"
+msgstr ""
+
+#: build/index.js:17839
+#: build/index.js:24362
+#: build/index.js:4489
+#: build/index.js:13584
+msgid "Search"
+msgstr ""
+
+#: build/index.js:17849
+#: build/index.js:4501
+msgid "Shopping Cart"
+msgstr ""
+
+#: build/index.js:17854
+#: build/index.js:4507
+msgid "Task Alt"
+msgstr ""
+
+#: build/index.js:17859
+#: build/index.js:23300
+#: build/index.js:4513
+#: build/index.js:12113
+msgid "Thumb Up"
+msgstr ""
+
+#: build/index.js:17864
+#: build/index.js:4519
+msgid "Verified"
+msgstr ""
+
+#: build/index.js:17869
+#: build/index.js:4525
+msgid "Visibility"
+msgstr ""
+
+#: build/index.js:17874
+#: build/index.js:4531
+msgid "Visibility Off"
+msgstr ""
+
+#: build/index.js:17885
+#: build/index.js:19785
+#: build/index.js:4587
+#: build/index.js:7229
+msgid "Air"
+msgstr ""
+
+#: build/index.js:17890
+#: build/index.js:4593
+msgid "Architecture"
+msgstr ""
+
+#: build/index.js:17895
+#: build/index.js:4599
+msgid "Backpack"
+msgstr ""
+
+#: build/index.js:17900
+#: build/index.js:4605
+msgid "Biotech"
+msgstr ""
+
+#: build/index.js:17905
+#: build/index.js:4611
+msgid "Cake"
+msgstr ""
+
+#: build/index.js:17910
+#: build/index.js:21933
+#: build/index.js:4617
+#: build/index.js:10218
+msgid "Campaign"
+msgstr ""
+
+#: build/index.js:17915
+#: build/index.js:4623
+msgid "Camping"
+msgstr ""
+
+#: build/index.js:17920
+#: build/index.js:22064
+#: build/index.js:4629
+#: build/index.js:10411
+msgid "Confirmation Number"
+msgstr ""
+
+#: build/index.js:17925
+#: build/index.js:22944
+#: build/index.js:4635
+#: build/index.js:11643
+msgid "Construction"
+msgstr ""
+
+#: build/index.js:17930
+#: build/index.js:4641
+msgid "Downhill Skiing"
+msgstr ""
+
+#: build/index.js:17935
+#: build/index.js:22964
+#: build/index.js:4647
+#: build/index.js:11667
+msgid "Engineering"
+msgstr ""
+
+#: build/index.js:17940
+#: build/index.js:4653
+msgid "Experiment"
+msgstr ""
+
+#: build/index.js:17945
+#: build/index.js:4659
+msgid "Hiking"
+msgstr ""
+
+#: build/index.js:17950
+#: build/index.js:4665
+msgid "How To Vote"
+msgstr ""
+
+#: build/index.js:17955
+#: build/index.js:4671
+msgid "Nights Stay"
+msgstr ""
+
+#: build/index.js:17960
+#: build/index.js:4677
+msgid "Personal Injury"
+msgstr ""
+
+#: build/index.js:17965
+#: build/index.js:4683
+msgid "Piano"
+msgstr ""
+
+#: build/index.js:17970
+#: build/index.js:4689
+msgid "Real Estate Agent"
+msgstr ""
+
+#: build/index.js:17975
+#: build/index.js:23069
+#: build/index.js:4695
+#: build/index.js:11793
+msgid "School"
+msgstr ""
+
+#: build/index.js:17980
+#: build/index.js:23074
+#: build/index.js:4701
+#: build/index.js:11799
+msgid "Science"
+msgstr ""
+
+#: build/index.js:17985
+#: build/index.js:4707
+msgid "Scoreboard"
+msgstr ""
+
+#: build/index.js:17990
+#: build/index.js:4713
+msgid "Self Improvement"
+msgstr ""
+
+#: build/index.js:17995
+#: build/index.js:4719
+msgid "Sports Baseball"
+msgstr ""
+
+#: build/index.js:18000
+#: build/index.js:4725
+msgid "Sports Basketball"
+msgstr ""
+
+#: build/index.js:18005
+#: build/index.js:23094
+#: build/index.js:4731
+#: build/index.js:11823
+msgid "Sports Esports"
+msgstr ""
+
+#: build/index.js:18010
+#: build/index.js:4737
+msgid "Sports Gymnastics"
+msgstr ""
+
+#: build/index.js:18015
+#: build/index.js:4743
+msgid "Sports Kabaddi"
+msgstr ""
+
+#: build/index.js:18020
+#: build/index.js:4749
+msgid "Sports Martial Arts"
+msgstr ""
+
+#: build/index.js:18025
+#: build/index.js:4755
+msgid "Sports Motorsports"
+msgstr ""
+
+#: build/index.js:18030
+#: build/index.js:4761
+msgid "Sports"
+msgstr ""
+
+#: build/index.js:18035
+#: build/index.js:19920
+#: build/index.js:4767
+#: build/index.js:7391
+msgid "Sports Score"
+msgstr ""
+
+#: build/index.js:18040
+#: build/index.js:4773
+msgid "Sports Soccer"
+msgstr ""
+
+#: build/index.js:18045
+#: build/index.js:4779
+msgid "Sports Tennis"
+msgstr ""
+
+#: build/index.js:18050
+#: build/index.js:4785
+msgid "Sports Volleyball"
+msgstr ""
+
+#: build/index.js:18055
+#: build/index.js:4791
+msgid "Surfing"
+msgstr ""
+
+#: build/index.js:18060
+#: build/index.js:4797
+msgid "Switch Account"
+msgstr ""
+
+#: build/index.js:18065
+#: build/index.js:4803
+msgid "Swords"
+msgstr ""
+
+#: build/index.js:18070
+#: build/index.js:4809
+msgid "Theaters"
+msgstr ""
+
+#: build/index.js:18075
+#: build/index.js:4815
+msgid "Toys"
+msgstr ""
+
+#: build/index.js:18080
+#: build/index.js:21646
+#: build/index.js:4821
+#: build/index.js:9795
+msgid "Volunteer Activism"
+msgstr ""
+
+#: build/index.js:18085
+#: build/index.js:4827
+msgid "Water"
+msgstr ""
+
+#: build/index.js:18090
+#: build/index.js:4833
+msgid "Waves"
+msgstr ""
+
+#: build/index.js:18101
+#: build/index.js:19614
+#: build/index.js:4854
+#: build/index.js:6988
+msgid "Add"
+msgstr ""
+
+#: build/index.js:18106
+#: build/index.js:4860
+msgid "Auto Delete"
+msgstr ""
+
+#: build/index.js:18111
+#: build/index.js:4866
+msgid "Error"
+msgstr ""
+
+#: build/index.js:18116
+#: build/index.js:4872
+msgid "Error Outline"
+msgstr ""
+
+#: build/index.js:18121
+#: build/index.js:4878
+msgid "Notification Important"
+msgstr ""
+
+#: build/index.js:18126
+#: build/index.js:4884
+msgid "Warning Amber"
+msgstr ""
+
+#: build/index.js:18131
+#: build/index.js:4890
+msgid "Warning"
+msgstr ""
+
+#: build/index.js:18142
+#: build/index.js:4946
+msgid "Airplanemode Active"
+msgstr ""
+
+#: build/index.js:18152
+#: build/index.js:4958
+msgid "Battery0Bar"
+msgstr ""
+
+#: build/index.js:18157
+#: build/index.js:4964
+msgid "Battery4Bar"
+msgstr ""
+
+#: build/index.js:18162
+#: build/index.js:4970
+msgid "Battery5Bar"
+msgstr ""
+
+#: build/index.js:18167
+#: build/index.js:4976
+msgid "Battery6Bar"
+msgstr ""
+
+#: build/index.js:18172
+#: build/index.js:19790
+#: build/index.js:4982
+#: build/index.js:7235
+msgid "Battery Charging Full"
+msgstr ""
+
+#: build/index.js:18177
+#: build/index.js:4988
+msgid "Battery Full Alt"
+msgstr ""
+
+#: build/index.js:18182
+#: build/index.js:19795
+#: build/index.js:4994
+#: build/index.js:7241
+msgid "Battery Full"
+msgstr ""
+
+#: build/index.js:18187
+#: build/index.js:19800
+#: build/index.js:5000
+#: build/index.js:7247
+msgid "Bluetooth"
+msgstr ""
+
+#: build/index.js:18192
+#: build/index.js:5006
+msgid "Cable"
+msgstr ""
+
+#: build/index.js:18197
+#: build/index.js:5012
+msgid "Cameraswitch"
+msgstr ""
+
+#: build/index.js:18202
+#: build/index.js:5018
+msgid "Charger"
+msgstr ""
+
+#: build/index.js:18207
+#: build/index.js:19810
+#: build/index.js:5024
+#: build/index.js:7259
+msgid "Dark Mode"
+msgstr ""
+
+#: build/index.js:18212
+#: build/index.js:5030
+msgid "Data Usage"
+msgstr ""
+
+#: build/index.js:18217
+#: build/index.js:19820
+#: build/index.js:5036
+#: build/index.js:7271
+msgid "Dvr"
+msgstr ""
+
+#: build/index.js:18222
+#: build/index.js:5042
+msgid "Flashlight On"
+msgstr ""
+
+#: build/index.js:18227
+#: build/index.js:5048
+msgid "Gpp Bad"
+msgstr ""
+
+#: build/index.js:18232
+#: build/index.js:5054
+msgid "Gpp Maybe"
+msgstr ""
+
+#: build/index.js:18237
+#: build/index.js:19840
+#: build/index.js:5060
+#: build/index.js:7295
+msgid "Graphic Eq"
+msgstr ""
+
+#: build/index.js:18242
+#: build/index.js:19845
+#: build/index.js:5066
+#: build/index.js:7301
+msgid "Light Mode"
+msgstr ""
+
+#: build/index.js:18247
+#: build/index.js:22129
+#: build/index.js:5072
+#: build/index.js:10489
+msgid "Network Check"
+msgstr ""
+
+#: build/index.js:18252
+#: build/index.js:19860
+#: build/index.js:5078
+#: build/index.js:7319
+msgid "Nightlight"
+msgstr ""
+
+#: build/index.js:18257
+#: build/index.js:19870
+#: build/index.js:5084
+#: build/index.js:7331
+msgid "Password"
+msgstr ""
+
+#: build/index.js:18262
+#: build/index.js:19875
+#: build/index.js:5090
+#: build/index.js:7337
+msgid "Pin"
+msgstr ""
+
+#: build/index.js:18267
+#: build/index.js:5096
+msgid "Quick Phrases"
+msgstr ""
+
+#: build/index.js:18272
+#: build/index.js:5102
+msgid "Radar"
+msgstr ""
+
+#: build/index.js:18277
+#: build/index.js:19357
+#: build/index.js:5108
+#: build/index.js:6601
+msgid "Rss Feed"
+msgstr ""
+
+#: build/index.js:18282
+#: build/index.js:5114
+msgid "Signal Cellular4Bar"
+msgstr ""
+
+#: build/index.js:18287
+#: build/index.js:19915
+#: build/index.js:5120
+#: build/index.js:7385
+msgid "Signal Cellular Alt"
+msgstr ""
+
+#: build/index.js:18292
+#: build/index.js:5126
+msgid "Signal Disconnected"
+msgstr ""
+
+#: build/index.js:18297
+#: build/index.js:5132
+msgid "Signal Wifi4Bar"
+msgstr ""
+
+#: build/index.js:18302
+#: build/index.js:5138
+msgid "Sim Card Download"
+msgstr ""
+
+#: build/index.js:18307
+#: build/index.js:5144
+msgid "Splitscreen"
+msgstr ""
+
+#: build/index.js:18312
+#: build/index.js:19925
+#: build/index.js:20941
+#: build/index.js:5150
+#: build/index.js:7397
+#: build/index.js:8837
+msgid "Storage"
+msgstr ""
+
+#: build/index.js:18317
+#: build/index.js:19940
+#: build/index.js:5156
+#: build/index.js:7415
+msgid "Thermostat"
+msgstr ""
+
+#: build/index.js:18322
+#: build/index.js:5162
+msgid "Usb"
+msgstr ""
+
+#: build/index.js:18327
+#: build/index.js:5168
+msgid "Wallpaper"
+msgstr ""
+
+#: build/index.js:18332
+#: build/index.js:19950
+#: build/index.js:5174
+#: build/index.js:7427
+msgid "Widgets"
+msgstr ""
+
+#: build/index.js:18337
+#: build/index.js:22219
+#: build/index.js:5180
+#: build/index.js:10597
+msgid "Wifi"
+msgstr ""
+
+#: build/index.js:18342
+#: build/index.js:22224
+#: build/index.js:5186
+#: build/index.js:10603
+msgid "Wifi Off"
+msgstr ""
+
+#: build/index.js:18347
+#: build/index.js:5192
+msgid "Wifi Tethering"
+msgstr ""
+
+#: build/index.js:18358
+#: build/index.js:18548
+#: build/index.js:5241
+#: build/index.js:5507
+msgid "Audioandvideo Equalizer"
+msgstr ""
+
+#: build/index.js:18363
+#: build/index.js:18553
+#: build/index.js:5247
+#: build/index.js:5513
+msgid "Audioandvideo Fast Forward"
+msgstr ""
+
+#: build/index.js:18368
+#: build/index.js:18563
+#: build/index.js:5253
+#: build/index.js:5525
+msgid "Audioandvideo Fiber Manual Record"
+msgstr ""
+
+#: build/index.js:18373
+#: build/index.js:5259
+msgid "Audioandvideo Library Add"
+msgstr ""
+
+#: build/index.js:18378
+#: build/index.js:18573
+#: build/index.js:5265
+#: build/index.js:5537
+msgid "Audioandvideo Library Books"
+msgstr ""
+
+#: build/index.js:18383
+#: build/index.js:5271
+msgid "Audioandvideo Loop"
+msgstr ""
+
+#: build/index.js:18388
+#: build/index.js:18583
+#: build/index.js:5277
+#: build/index.js:5549
+msgid "Audioandvideo Mic"
+msgstr ""
+
+#: build/index.js:18393
+#: build/index.js:18588
+#: build/index.js:5283
+#: build/index.js:5555
+msgid "Audioandvideo Mic Off"
+msgstr ""
+
+#: build/index.js:18398
+#: build/index.js:18593
+#: build/index.js:5289
+#: build/index.js:5561
+msgid "Audioandvideo Movie"
+msgstr ""
+
+#: build/index.js:18403
+#: build/index.js:5295
+msgid "Audioandvideo Releases"
+msgstr ""
+
+#: build/index.js:18408
+#: build/index.js:5301
+msgid "Audioandvideo Not Interested"
+msgstr ""
+
+#: build/index.js:18413
+#: build/index.js:18603
+#: build/index.js:5307
+#: build/index.js:5573
+msgid "Audioandvideo Pause Circle"
+msgstr ""
+
+#: build/index.js:18418
+#: build/index.js:18608
+#: build/index.js:5313
+#: build/index.js:5579
+msgid "Audioandvideo Pause"
+msgstr ""
+
+#: build/index.js:18423
+#: build/index.js:18613
+#: build/index.js:5319
+#: build/index.js:5585
+msgid "Audioandvideo Play Arrow"
+msgstr ""
+
+#: build/index.js:18447
+#: build/index.js:18623
+#: build/index.js:5343
+#: build/index.js:5597
+msgid "Audioandvideo Playlist Add Check"
+msgstr ""
+
+#: build/index.js:18452
+#: build/index.js:18628
+#: build/index.js:5349
+#: build/index.js:5603
+msgid "Audioandvideo Playlist Add"
+msgstr ""
+
+#: build/index.js:18457
+#: build/index.js:18653
+#: build/index.js:5355
+#: build/index.js:5633
+msgid "Audioandvideo Repeat"
+msgstr ""
+
+#: build/index.js:18462
+#: build/index.js:18658
+#: build/index.js:5361
+#: build/index.js:5639
+msgid "Audioandvideo Replay"
+msgstr ""
+
+#: build/index.js:18467
+#: build/index.js:18663
+#: build/index.js:5367
+#: build/index.js:5645
+msgid "Audioandvideo Shuffle"
+msgstr ""
+
+#: build/index.js:18472
+#: build/index.js:18668
+#: build/index.js:5373
+#: build/index.js:5651
+msgid "Audioandvideo Skip Next"
+msgstr ""
+
+#: build/index.js:18477
+#: build/index.js:18673
+#: build/index.js:5379
+#: build/index.js:5657
+msgid "Audioandvideo Skip Previous"
+msgstr ""
+
+#: build/index.js:18482
+#: build/index.js:18683
+#: build/index.js:5385
+#: build/index.js:5669
+msgid "Audioandvideo Speed"
+msgstr ""
+
+#: build/index.js:18487
+#: build/index.js:18688
+#: build/index.js:5391
+#: build/index.js:5675
+msgid "Audioandvideo Stop Circle"
+msgstr ""
+
+#: build/index.js:18492
+#: build/index.js:18693
+#: build/index.js:5397
+#: build/index.js:5681
+msgid "Audioandvideo Stop"
+msgstr ""
+
+#: build/index.js:18497
+#: build/index.js:18698
+#: build/index.js:5403
+#: build/index.js:5687
+msgid "Audioandvideo Subscriptions"
+msgstr ""
+
+#: build/index.js:18502
+#: build/index.js:18708
+#: build/index.js:5409
+#: build/index.js:5699
+msgid "Audioandvideo Video Call"
+msgstr ""
+
+#: build/index.js:18507
+#: build/index.js:18718
+#: build/index.js:5415
+#: build/index.js:5711
+msgid "Audioandvideo Videocam"
+msgstr ""
+
+#: build/index.js:18512
+#: build/index.js:18723
+#: build/index.js:5421
+#: build/index.js:5717
+msgid "Audioandvideo Video Library"
+msgstr ""
+
+#: build/index.js:18517
+#: build/index.js:18738
+#: build/index.js:5427
+#: build/index.js:5735
+msgid "Audioandvideo Volume Mute"
+msgstr ""
+
+#: build/index.js:18522
+#: build/index.js:18743
+#: build/index.js:5433
+#: build/index.js:5741
+msgid "Audioandvideo Volume Off"
+msgstr ""
+
+#: build/index.js:18527
+#: build/index.js:18748
+#: build/index.js:5439
+#: build/index.js:5747
+msgid "Audioandvideo Volume Up"
+msgstr ""
+
+#: build/index.js:18532
+#: build/index.js:5445
+msgid "Audioandvideo Web"
+msgstr ""
+
+#: build/index.js:18543
+#: build/index.js:5501
+msgid "Audioandvideo Album"
+msgstr ""
+
+#: build/index.js:18558
+#: build/index.js:5519
+msgid "Audioandvideo Fast Rewind"
+msgstr ""
+
+#: build/index.js:18568
+#: build/index.js:5531
+msgid "Audioandvideo Hearing"
+msgstr ""
+
+#: build/index.js:18578
+#: build/index.js:5543
+msgid "Audioandvideo Library Music"
+msgstr ""
+
+#: build/index.js:18598
+#: build/index.js:5567
+msgid "Audioandvideo Music Note"
+msgstr ""
+
+#: build/index.js:18618
+#: build/index.js:5591
+msgid "Audioandvideo Play Circle"
+msgstr ""
+
+#: build/index.js:18633
+#: build/index.js:5609
+msgid "Audioandvideo Play Pause"
+msgstr ""
+
+#: build/index.js:18638
+#: build/index.js:5615
+msgid "Audioandvideo Podcasts"
+msgstr ""
+
+#: build/index.js:18643
+#: build/index.js:5621
+msgid "Audioandvideo Queue Music"
+msgstr ""
+
+#: build/index.js:18648
+#: build/index.js:5627
+msgid "Audioandvideo Radio"
+msgstr ""
+
+#: build/index.js:18678
+#: build/index.js:5663
+msgid "Audioandvideo Sound Detection Dog Barking"
+msgstr ""
+
+#: build/index.js:18703
+#: build/index.js:5693
+msgid "Audioandvideo Subtitles"
+msgstr ""
+
+#: build/index.js:18713
+#: build/index.js:5705
+msgid "Audioandvideo Video Camera Front"
+msgstr ""
+
+#: build/index.js:18728
+#: build/index.js:5723
+msgid "Audioandvideo View In Ar"
+msgstr ""
+
+#: build/index.js:18733
+#: build/index.js:5729
+msgid "Audioandvideo Volume Down"
+msgstr ""
+
+#: build/index.js:18759
+#: build/index.js:5762
+msgid "Nest Gale Wifi"
+msgstr ""
+
+#: build/index.js:18770
+#: build/index.js:5818
+msgid "Businessandpayments Account Balance"
+msgstr ""
+
+#: build/index.js:18775
+#: build/index.js:5824
+msgid "Businessandpayments Account Balance Wallet"
+msgstr ""
+
+#: build/index.js:18780
+#: build/index.js:5830
+msgid "Businessandpayments Account Tree"
+msgstr ""
+
+#: build/index.js:18785
+#: build/index.js:5836
+msgid "Businessandpayments Add Shopping Cart"
+msgstr ""
+
+#: build/index.js:18790
+#: build/index.js:5842
+msgid "Businessandpayments Analytics"
+msgstr ""
+
+#: build/index.js:18795
+#: build/index.js:5848
+msgid "Businessandpayments Attach Money"
+msgstr ""
+
+#: build/index.js:18800
+#: build/index.js:5854
+msgid "Businessandpayments Bar Chart"
+msgstr ""
+
+#: build/index.js:18805
+#: build/index.js:5860
+msgid "Businessandpayments Calculate"
+msgstr ""
+
+#: build/index.js:18810
+#: build/index.js:5866
+msgid "Businessandpayments Corporate Fare"
+msgstr ""
+
+#: build/index.js:18815
+#: build/index.js:5872
+msgid "Businessandpayments Credit Card"
+msgstr ""
+
+#: build/index.js:18820
+#: build/index.js:5878
+msgid "Businessandpayments Currency Exchange"
+msgstr ""
+
+#: build/index.js:18825
+#: build/index.js:5884
+msgid "Businessandpayments Currency Rupee"
+msgstr ""
+
+#: build/index.js:18830
+#: build/index.js:5890
+msgid "Businessandpayments Database"
+msgstr ""
+
+#: build/index.js:18835
+#: build/index.js:5896
+msgid "Businessandpayments Domain"
+msgstr ""
+
+#: build/index.js:18840
+#: build/index.js:5902
+msgid "Businessandpayments Insert Chart"
+msgstr ""
+
+#: build/index.js:18845
+#: build/index.js:5908
+msgid "Businessandpayments Leaderboard"
+msgstr ""
+
+#: build/index.js:18850
+#: build/index.js:5914
+msgid "Businessandpayments Monetization On"
+msgstr ""
+
+#: build/index.js:18855
+#: build/index.js:5920
+msgid "Businessandpayments Monitoring"
+msgstr ""
+
+#: build/index.js:18860
+#: build/index.js:5926
+msgid "Businessandpayments Paid"
+msgstr ""
+
+#: build/index.js:18865
+#: build/index.js:5932
+msgid "Businessandpayments Payments"
+msgstr ""
+
+#: build/index.js:18870
+#: build/index.js:5938
+msgid "Businessandpayments Precision Manufacturing"
+msgstr ""
+
+#: build/index.js:18875
+#: build/index.js:5944
+msgid "Businessandpayments Qr Code2"
+msgstr ""
+
+#: build/index.js:18880
+#: build/index.js:5950
+msgid "Businessandpayments Qr Code"
+msgstr ""
+
+#: build/index.js:18885
+#: build/index.js:5956
+msgid "Businessandpayments Qr Code Scanner"
+msgstr ""
+
+#: build/index.js:18890
+#: build/index.js:5962
+msgid "Businessandpayments Query Stats"
+msgstr ""
+
+#: build/index.js:18895
+#: build/index.js:5968
+msgid "Businessandpayments Receipt Long"
+msgstr ""
+
+#: build/index.js:18900
+#: build/index.js:5974
+msgid "Businessandpayments Receipt"
+msgstr ""
+
+#: build/index.js:18905
+#: build/index.js:5980
+msgid "Businessandpayments Redeem"
+msgstr ""
+
+#: build/index.js:18910
+#: build/index.js:5986
+msgid "Businessandpayments Savings"
+msgstr ""
+
+#: build/index.js:18915
+#: build/index.js:5992
+msgid "Businessandpayments Sell"
+msgstr ""
+
+#: build/index.js:18920
+#: build/index.js:5998
+msgid "Businessandpayments Shopping Bag"
+msgstr ""
+
+#: build/index.js:18925
+#: build/index.js:6004
+msgid "Businessandpayments Shopping Basket"
+msgstr ""
+
+#: build/index.js:18930
+#: build/index.js:6010
+msgid "Businessandpayments Shopping Cart"
+msgstr ""
+
+#: build/index.js:18935
+#: build/index.js:6016
+msgid "Businessandpayments Show Chart"
+msgstr ""
+
+#: build/index.js:18940
+#: build/index.js:6022
+msgid "Businessandpayments Storefront"
+msgstr ""
+
+#: build/index.js:18945
+#: build/index.js:6028
+msgid "Businessandpayments Store"
+msgstr ""
+
+#: build/index.js:18950
+#: build/index.js:6034
+msgid "Businessandpayments Timeline"
+msgstr ""
+
+#: build/index.js:18955
+#: build/index.js:6040
+msgid "Businessandpayments Trending Flat"
+msgstr ""
+
+#: build/index.js:18960
+#: build/index.js:6046
+msgid "Businessandpayments Trending Up"
+msgstr ""
+
+#: build/index.js:18965
+#: build/index.js:6052
+msgid "Businessandpayments Wallet"
+msgstr ""
+
+#: build/index.js:18970
+#: build/index.js:6058
+msgid "Businessandpayments Work History"
+msgstr ""
+
+#: build/index.js:18975
+#: build/index.js:6064
+msgid "Businessandpayments Work"
+msgstr ""
+
+#: build/index.js:18986
+#: build/index.js:6120
+msgid "Commonactions Account Box"
+msgstr ""
+
+#: build/index.js:18991
+#: build/index.js:6126
+msgid "Commonactions Account Circle"
+msgstr ""
+
+#: build/index.js:18996
+#: build/index.js:6132
+msgid "Commonactions Ads Click"
+msgstr ""
+
+#: build/index.js:19001
+#: build/index.js:6138
+msgid "Commonactions Bookmark"
+msgstr ""
+
+#: build/index.js:19006
+#: build/index.js:6144
+msgid "Commonactions Bug Report"
+msgstr ""
+
+#: build/index.js:19011
+#: build/index.js:6150
+msgid "Commonactions Build"
+msgstr ""
+
+#: build/index.js:19016
+#: build/index.js:6156
+msgid "Commonactions Calendar Month"
+msgstr ""
+
+#: build/index.js:19021
+#: build/index.js:6162
+msgid "Commonactions Calendar Today"
+msgstr ""
+
+#: build/index.js:19026
+#: build/index.js:6168
+msgid "Commonactions Category"
+msgstr ""
+
+#: build/index.js:19031
+#: build/index.js:6174
+msgid "Commonactions Celebration"
+msgstr ""
+
+#: build/index.js:19036
+#: build/index.js:6180
+msgid "Commonactions Code"
+msgstr ""
+
+#: build/index.js:19041
+#: build/index.js:6186
+msgid "Commonactions Date Range"
+msgstr ""
+
+#: build/index.js:19046
+#: build/index.js:6192
+msgid "Commonactions Error"
+msgstr ""
+
+#: build/index.js:19051
+#: build/index.js:6198
+msgid "Commonactions Event Available"
+msgstr ""
+
+#: build/index.js:19056
+#: build/index.js:6204
+msgid "Commonactions Event"
+msgstr ""
+
+#: build/index.js:19061
+#: build/index.js:6210
+msgid "Commonactions Fingerprint"
+msgstr ""
+
+#: build/index.js:19066
+#: build/index.js:6216
+msgid "Commonactions Help"
+msgstr ""
+
+#: build/index.js:19071
+#: build/index.js:6222
+msgid "Commonactions History"
+msgstr ""
+
+#: build/index.js:19076
+#: build/index.js:6228
+msgid "Commonactions Info"
+msgstr ""
+
+#: build/index.js:19081
+#: build/index.js:6234
+msgid "Commonactions Language"
+msgstr ""
+
+#: build/index.js:19086
+#: build/index.js:6240
+msgid "Commonactions Lightbulb"
+msgstr ""
+
+#: build/index.js:19091
+#: build/index.js:6246
+msgid "Commonactions Lock"
+msgstr ""
+
+#: build/index.js:19096
+#: build/index.js:6252
+msgid "Commonactions Lock Open"
+msgstr ""
+
+#: build/index.js:19101
+#: build/index.js:6258
+msgid "Commonactions Manage Accounts"
+msgstr ""
+
+#: build/index.js:19106
+#: build/index.js:6264
+msgid "Commonactions Releases"
+msgstr ""
+
+#: build/index.js:19111
+#: build/index.js:6270
+msgid "Commonactions Pending"
+msgstr ""
+
+#: build/index.js:19116
+#: build/index.js:6276
+msgid "Commonactions Preview"
+msgstr ""
+
+#: build/index.js:19121
+#: build/index.js:6282
+msgid "Commonactions Priority High"
+msgstr ""
+
+#: build/index.js:19126
+#: build/index.js:6288
+msgid "Commonactions Question Mark"
+msgstr ""
+
+#: build/index.js:19131
+#: build/index.js:6294
+msgid "Commonactions Schedule"
+msgstr ""
+
+#: build/index.js:19136
+#: build/index.js:6300
+msgid "Commonactions Stars"
+msgstr ""
+
+#: build/index.js:19141
+#: build/index.js:6306
+msgid "Commonactions Supervisor Account"
+msgstr ""
+
+#: build/index.js:19146
+#: build/index.js:6312
+msgid "Commonactions Task Alt"
+msgstr ""
+
+#: build/index.js:19151
+#: build/index.js:6318
+msgid "Commonactions Today"
+msgstr ""
+
+#: build/index.js:19156
+#: build/index.js:6324
+msgid "Commonactions Touch App"
+msgstr ""
+
+#: build/index.js:19161
+#: build/index.js:6330
+msgid "Commonactions Translate"
+msgstr ""
+
+#: build/index.js:19166
+#: build/index.js:6336
+msgid "Commonactions Update"
+msgstr ""
+
+#: build/index.js:19171
+#: build/index.js:6342
+msgid "Commonactions Upload File"
+msgstr ""
+
+#: build/index.js:19176
+#: build/index.js:6348
+msgid "Commonactions Verified"
+msgstr ""
+
+#: build/index.js:19181
+#: build/index.js:6354
+msgid "Commonactions Visibility"
+msgstr ""
+
+#: build/index.js:19186
+#: build/index.js:6360
+msgid "Commonactions Visibility Off"
+msgstr ""
+
+#: build/index.js:19191
+#: build/index.js:6366
+msgid "Commonactions Warning"
+msgstr ""
+
+#: build/index.js:19202
+#: build/index.js:19388
+#: build/index.js:6415
+#: build/index.js:6681
+msgid "Alternate Email"
+msgstr ""
+
+#: build/index.js:19207
+#: build/index.js:6421
+msgid "App Registration"
+msgstr ""
+
+#: build/index.js:19212
+#: build/index.js:6427
+msgid "Business"
+msgstr ""
+
+#: build/index.js:19217
+#: build/index.js:19398
+#: build/index.js:6433
+#: build/index.js:6693
+msgid "Call"
+msgstr ""
+
+#: build/index.js:19222
+#: build/index.js:19403
+#: build/index.js:6439
+#: build/index.js:6699
+msgid "Chat Bubble"
+msgstr ""
+
+#: build/index.js:19227
+#: build/index.js:6445
+msgid "Chat Bubble Outline"
+msgstr ""
+
+#: build/index.js:19232
+#: build/index.js:19408
+#: build/index.js:6451
+#: build/index.js:6705
+msgid "Chat"
+msgstr ""
+
+#: build/index.js:19237
+#: build/index.js:19413
+#: build/index.js:6457
+#: build/index.js:6711
+msgid "Comment"
+msgstr ""
+
+#: build/index.js:19242
+#: build/index.js:19418
+#: build/index.js:6463
+#: build/index.js:6717
+msgid "Contact Mail"
+msgstr ""
+
+#: build/index.js:19247
+#: build/index.js:19423
+#: build/index.js:6469
+#: build/index.js:6723
+msgid "Contact Phone"
+msgstr ""
+
+#: build/index.js:19252
+#: build/index.js:19428
+#: build/index.js:6475
+#: build/index.js:6729
+msgid "Contacts"
+msgstr ""
+
+#: build/index.js:19257
+#: build/index.js:6481
+msgid "Email"
+msgstr ""
+
+#: build/index.js:19262
+#: build/index.js:19448
+#: build/index.js:6487
+#: build/index.js:6753
+msgid "Forum"
+msgstr ""
+
+#: build/index.js:19267
+#: build/index.js:19453
+#: build/index.js:6493
+#: build/index.js:6759
+msgid "Forward To Inbox"
+msgstr ""
+
+#: build/index.js:19272
+#: build/index.js:19463
+#: build/index.js:6499
+#: build/index.js:6771
+msgid "Hourglass Bottom"
+msgstr ""
+
+#: build/index.js:19277
+#: build/index.js:19468
+#: build/index.js:6505
+#: build/index.js:6777
+msgid "Hourglass Top"
+msgstr ""
+
+#: build/index.js:19282
+#: build/index.js:19473
+#: build/index.js:6511
+#: build/index.js:6783
+msgid "Hub"
+msgstr ""
+
+#: build/index.js:19287
+#: build/index.js:19478
+#: build/index.js:6517
+#: build/index.js:6789
+msgid "Import Contacts"
+msgstr ""
+
+#: build/index.js:19292
+#: build/index.js:6523
+msgid "Import Export"
+msgstr ""
+
+#: build/index.js:19297
+#: build/index.js:6529
+msgid "Key"
+msgstr ""
+
+#: build/index.js:19302
+#: build/index.js:6535
+msgid "List Alt"
+msgstr ""
+
+#: build/index.js:19307
+#: build/index.js:19508
+#: build/index.js:6541
+#: build/index.js:6825
+msgid "Live Help"
+msgstr ""
+
+#: build/index.js:19312
+#: build/index.js:21772
+#: build/index.js:6547
+#: build/index.js:9989
+msgid "Location On"
+msgstr ""
+
+#: build/index.js:19317
+#: build/index.js:6553
+msgid "Mail Outline"
+msgstr ""
+
+#: build/index.js:19322
+#: build/index.js:19518
+#: build/index.js:6559
+#: build/index.js:6837
+msgid "Mark Email Read"
+msgstr ""
+
+#: build/index.js:19327
+#: build/index.js:6565
+msgid "Message"
+msgstr ""
+
+#: build/index.js:19332
+#: build/index.js:19553
+#: build/index.js:6571
+#: build/index.js:6879
+msgid "Person Search"
+msgstr ""
+
+#: build/index.js:19337
+#: build/index.js:6577
+msgid "Phone"
+msgstr ""
+
+#: build/index.js:19342
+#: build/index.js:6583
+msgid "Qr Code2"
+msgstr ""
+
+#: build/index.js:19347
+#: build/index.js:6589
+msgid "Qr Code"
+msgstr ""
+
+#: build/index.js:19352
+#: build/index.js:6595
+msgid "Qr Code Scanner"
+msgstr ""
+
+#: build/index.js:19362
+#: build/index.js:6607
+msgid "Sentiment Satisfied Alt"
+msgstr ""
+
+#: build/index.js:19367
+#: build/index.js:6613
+msgid "Textsms"
+msgstr ""
+
+#: build/index.js:19372
+#: build/index.js:6619
+msgid "Vpn Key"
+msgstr ""
+
+#: build/index.js:19383
+#: build/index.js:6675
+msgid "Add Comment"
+msgstr ""
+
+#: build/index.js:19393
+#: build/index.js:6687
+msgid "Calendar Add On"
+msgstr ""
+
+#: build/index.js:19433
+#: build/index.js:6735
+msgid "Contact Support"
+msgstr ""
+
+#: build/index.js:19438
+#: build/index.js:6741
+msgid "Co Present"
+msgstr ""
+
+#: build/index.js:19443
+#: build/index.js:6747
+msgid "Drafts"
+msgstr ""
+
+#: build/index.js:19458
+#: build/index.js:6765
+msgid "GTranslate"
+msgstr ""
+
+#: build/index.js:19483
+#: build/index.js:6795
+msgid "Inbox"
+msgstr ""
+
+#: build/index.js:19488
+#: build/index.js:19689
+#: build/index.js:6801
+#: build/index.js:7078
+msgid "Inventory2"
+msgstr ""
+
+#: build/index.js:19493
+#: build/index.js:6807
+msgid "Lan"
+msgstr ""
+
+#: build/index.js:19498
+#: build/index.js:19699
+#: build/index.js:6813
+#: build/index.js:7090
+msgid "Link"
+msgstr ""
+
+#: build/index.js:19503
+#: build/index.js:6819
+msgid "Link Off"
+msgstr ""
+
+#: build/index.js:19513
+#: build/index.js:19704
+#: build/index.js:6831
+#: build/index.js:7096
+msgid "Mail"
+msgstr ""
+
+#: build/index.js:19523
+#: build/index.js:6843
+msgid "Mark Email Unread"
+msgstr ""
+
+#: build/index.js:19528
+#: build/index.js:20061
+#: build/index.js:6849
+#: build/index.js:7596
+msgid "Mode Comment"
+msgstr ""
+
+#: build/index.js:19533
+#: build/index.js:23009
+#: build/index.js:6855
+#: build/index.js:11721
+msgid "Notifications Active"
+msgstr ""
+
+#: build/index.js:19538
+#: build/index.js:23014
+#: build/index.js:6861
+#: build/index.js:11727
+msgid "Notifications"
+msgstr ""
+
+#: build/index.js:19543
+#: build/index.js:6867
+msgid "Outgoing Mail"
+msgstr ""
+
+#: build/index.js:19548
+#: build/index.js:6873
+msgid "Perm Phone Msg"
+msgstr ""
+
+#: build/index.js:19558
+#: build/index.js:6885
+msgid "Phone Enabled"
+msgstr ""
+
+#: build/index.js:19563
+#: build/index.js:6891
+msgid "Phone In Talk"
+msgstr ""
+
+#: build/index.js:19568
+#: build/index.js:6897
+msgid "Power Settings"
+msgstr ""
+
+#: build/index.js:19573
+#: build/index.js:19900
+#: build/index.js:6903
+#: build/index.js:7367
+msgid "Reviews"
+msgstr ""
+
+#: build/index.js:19578
+#: build/index.js:19754
+#: build/index.js:6909
+#: build/index.js:7156
+msgid "Send"
+msgstr ""
+
+#: build/index.js:19583
+#: build/index.js:22179
+#: build/index.js:6915
+#: build/index.js:10549
+msgid "Sms"
+msgstr ""
+
+#: build/index.js:19588
+#: build/index.js:6921
+msgid "Speaker Notes"
+msgstr ""
+
+#: build/index.js:19599
+#: build/index.js:6970
+msgid "Add Box"
+msgstr ""
+
+#: build/index.js:19604
+#: build/index.js:6976
+msgid "Add Circle"
+msgstr ""
+
+#: build/index.js:19609
+#: build/index.js:6982
+msgid "Add Circle Outline"
+msgstr ""
+
+#: build/index.js:19619
+#: build/index.js:6994
+msgid "Archive"
+msgstr ""
+
+#: build/index.js:19624
+#: build/index.js:7000
+msgid "Backspace"
+msgstr ""
+
+#: build/index.js:19629
+#: build/index.js:7006
+msgid "Block"
+msgstr ""
+
+#: build/index.js:19634
+#: build/index.js:7012
+msgid "Bolt"
+msgstr ""
+
+#: build/index.js:19639
+#: build/index.js:7018
+msgid "Calculate"
+msgstr ""
+
+#: build/index.js:19644
+#: build/index.js:7024
+msgid "Clear"
+msgstr ""
+
+#: build/index.js:19649
+#: build/index.js:7030
+msgid "Copy"
+msgstr ""
+
+#: build/index.js:19654
+#: build/index.js:7036
+msgid "Paste"
+msgstr ""
+
+#: build/index.js:19659
+#: build/index.js:7042
+msgid "Create"
+msgstr ""
+
+#: build/index.js:19664
+#: build/index.js:7048
+msgid "File Copy"
+msgstr ""
+
+#: build/index.js:19669
+#: build/index.js:7054
+msgid "Filter List"
+msgstr ""
+
+#: build/index.js:19674
+#: build/index.js:21697
+#: build/index.js:7060
+#: build/index.js:9899
+msgid "Flag"
+msgstr ""
+
+#: build/index.js:19679
+#: build/index.js:7066
+msgid "How To Reg"
+msgstr ""
+
+#: build/index.js:19684
+#: build/index.js:7072
+msgid "Insights"
+msgstr ""
+
+#: build/index.js:19694
+#: build/index.js:7084
+msgid "Inventory"
+msgstr ""
+
+#: build/index.js:19709
+#: build/index.js:7102
+msgid "Policy"
+msgstr ""
+
+#: build/index.js:19714
+#: build/index.js:7108
+msgid "Push Pin"
+msgstr ""
+
+#: build/index.js:19719
+#: build/index.js:7114
+msgid "Remove Circle"
+msgstr ""
+
+#: build/index.js:19724
+#: build/index.js:7120
+msgid "Remove Circle Outline"
+msgstr ""
+
+#: build/index.js:19729
+#: build/index.js:7126
+msgid "Remove"
+msgstr ""
+
+#: build/index.js:19734
+#: build/index.js:7132
+msgid "Reply"
+msgstr ""
+
+#: build/index.js:19739
+#: build/index.js:7138
+msgid "Report"
+msgstr ""
+
+#: build/index.js:19744
+#: build/index.js:7144
+msgid "Save Alt"
+msgstr ""
+
+#: build/index.js:19749
+#: build/index.js:20674
+#: build/index.js:7150
+#: build/index.js:8446
+msgid "Save"
+msgstr ""
+
+#: build/index.js:19759
+#: build/index.js:7162
+msgid "Shield"
+msgstr ""
+
+#: build/index.js:19764
+#: build/index.js:7168
+msgid "Sort"
+msgstr ""
+
+#: build/index.js:19769
+#: build/index.js:7174
+msgid "Undo"
+msgstr ""
+
+#: build/index.js:19780
+#: build/index.js:7223
+msgid "Access Time"
+msgstr ""
+
+#: build/index.js:19805
+#: build/index.js:7253
+msgid "Credit Score"
+msgstr ""
+
+#: build/index.js:19815
+#: build/index.js:7265
+msgid "s"
+msgstr ""
+
+#: build/index.js:19825
+#: build/index.js:7277
+msgid "Fmd Good"
+msgstr ""
+
+#: build/index.js:19830
+#: build/index.js:7283
+msgid "Gpp Good"
+msgstr ""
+
+#: build/index.js:19835
+#: build/index.js:7289
+msgid "Gps Fixed"
+msgstr ""
+
+#: build/index.js:19850
+#: build/index.js:7307
+msgid "Medication"
+msgstr ""
+
+#: build/index.js:19855
+#: build/index.js:23205
+#: build/index.js:7313
+#: build/index.js:11999
+msgid "Monitor Heart"
+msgstr ""
+
+#: build/index.js:19865
+#: build/index.js:7325
+msgid "Note Alt"
+msgstr ""
+
+#: build/index.js:19880
+#: build/index.js:7343
+msgid "Price Change"
+msgstr ""
+
+#: build/index.js:19885
+#: build/index.js:7349
+msgid "Price Check"
+msgstr ""
+
+#: build/index.js:19890
+#: build/index.js:23245
+#: build/index.js:7355
+#: build/index.js:12047
+msgid "Quiz"
+msgstr ""
+
+#: build/index.js:19895
+#: build/index.js:7361
+msgid "Restart Alt"
+msgstr ""
+
+#: build/index.js:19905
+#: build/index.js:7373
+msgid "Sell"
+msgstr ""
+
+#: build/index.js:19910
+#: build/index.js:7379
+msgid "Settings Suggest"
+msgstr ""
+
+#: build/index.js:19930
+#: build/index.js:7403
+msgid "Summarize"
+msgstr ""
+
+#: build/index.js:19935
+#: build/index.js:7409
+msgid "Task"
+msgstr ""
+
+#: build/index.js:19945
+#: build/index.js:7421
+msgid "Tungsten"
+msgstr ""
+
+#: build/index.js:19961
+#: build/index.js:7476
+msgid "Attach File"
+msgstr ""
+
+#: build/index.js:19966
+#: build/index.js:7482
+msgid "Attach Money"
+msgstr ""
+
+#: build/index.js:19971
+#: build/index.js:7488
+msgid "Auto Graph"
+msgstr ""
+
+#: build/index.js:19976
+#: build/index.js:7494
+msgid "Bar Chart"
+msgstr ""
+
+#: build/index.js:19981
+#: build/index.js:7500
+msgid "Border Color"
+msgstr ""
+
+#: build/index.js:19986
+#: build/index.js:7506
+msgid "Checklist"
+msgstr ""
+
+#: build/index.js:19991
+#: build/index.js:7512
+msgid "Checklist Rtl"
+msgstr ""
+
+#: build/index.js:19996
+#: build/index.js:7518
+msgid "Drag Handle"
+msgstr ""
+
+#: build/index.js:20001
+#: build/index.js:7524
+msgid "Draw"
+msgstr ""
+
+#: build/index.js:20006
+#: build/index.js:7530
+msgid "Edit Note"
+msgstr ""
+
+#: build/index.js:20011
+#: build/index.js:7536
+msgid "Format Bold"
+msgstr ""
+
+#: build/index.js:20016
+#: build/index.js:7542
+msgid "Format List Bulleted"
+msgstr ""
+
+#: build/index.js:20021
+#: build/index.js:7548
+msgid "Format List Numbered"
+msgstr ""
+
+#: build/index.js:20026
+#: build/index.js:7554
+msgid "Format Quote"
+msgstr ""
+
+#: build/index.js:20031
+#: build/index.js:7560
+msgid "Functions"
+msgstr ""
+
+#: build/index.js:20036
+#: build/index.js:7566
+msgid "Insert Chart Outlined"
+msgstr ""
+
+#: build/index.js:20041
+#: build/index.js:7572
+msgid "Insert Drive File"
+msgstr ""
+
+#: build/index.js:20046
+#: build/index.js:7578
+msgid "Insert Emoticon"
+msgstr ""
+
+#: build/index.js:20051
+#: build/index.js:7584
+msgid "Insert Link"
+msgstr ""
+
+#: build/index.js:20056
+#: build/index.js:7590
+msgid "Insert Photo"
+msgstr ""
+
+#: build/index.js:20066
+#: build/index.js:7602
+msgid "Mode Edit"
+msgstr ""
+
+#: build/index.js:20071
+#: build/index.js:7608
+msgid "Mode Edit Outline"
+msgstr ""
+
+#: build/index.js:20076
+#: build/index.js:7614
+msgid "Mode"
+msgstr ""
+
+#: build/index.js:20081
+#: build/index.js:7620
+msgid "Monetization On"
+msgstr ""
+
+#: build/index.js:20086
+#: build/index.js:7626
+msgid "Notes"
+msgstr ""
+
+#: build/index.js:20091
+#: build/index.js:7632
+msgid "Pie Chart"
+msgstr ""
+
+#: build/index.js:20096
+#: build/index.js:7638
+msgid "Post Add"
+msgstr ""
+
+#: build/index.js:20101
+#: build/index.js:7644
+msgid "Publish"
+msgstr ""
+
+#: build/index.js:20106
+#: build/index.js:7650
+msgid "Query Stats"
+msgstr ""
+
+#: build/index.js:20111
+#: build/index.js:7656
+msgid "Show Chart"
+msgstr ""
+
+#: build/index.js:20116
+#: build/index.js:7662
+msgid "Table Chart"
+msgstr ""
+
+#: build/index.js:20121
+#: build/index.js:7668
+msgid "Table Rows"
+msgstr ""
+
+#: build/index.js:20126
+#: build/index.js:7674
+msgid "Text Fields"
+msgstr ""
+
+#: build/index.js:20131
+#: build/index.js:7680
+msgid "Title"
+msgstr ""
+
+#: build/index.js:20142
+#: build/index.js:7729
+msgid "Approval"
+msgstr ""
+
+#: build/index.js:20147
+#: build/index.js:7735
+msgid "Attach Email"
+msgstr ""
+
+#: build/index.js:20152
+#: build/index.js:7741
+msgid "Attachment"
+msgstr ""
+
+#: build/index.js:20157
+#: build/index.js:7747
+msgid "Cloud Done"
+msgstr ""
+
+#: build/index.js:20162
+#: build/index.js:7753
+msgid "Cloud Download"
+msgstr ""
+
+#: build/index.js:20167
+#: build/index.js:7759
+msgid "Cloud"
+msgstr ""
+
+#: build/index.js:20172
+#: build/index.js:7765
+msgid "Cloud Off"
+msgstr ""
+
+#: build/index.js:20177
+#: build/index.js:7771
+msgid "Cloud Queue"
+msgstr ""
+
+#: build/index.js:20182
+#: build/index.js:7777
+msgid "Cloud Sync"
+msgstr ""
+
+#: build/index.js:20187
+#: build/index.js:7783
+msgid "Cloud Upload"
+msgstr ""
+
+#: build/index.js:20192
+#: build/index.js:7789
+msgid "Create Folder"
+msgstr ""
+
+#: build/index.js:20197
+#: build/index.js:20232
+#: build/index.js:7795
+#: build/index.js:7837
+msgid "Download Done"
+msgstr ""
+
+#: build/index.js:20202
+#: build/index.js:7801
+msgid "Download For Offline"
+msgstr ""
+
+#: build/index.js:20207
+#: build/index.js:7807
+msgid "Downloading"
+msgstr ""
+
+#: build/index.js:20212
+#: build/index.js:20237
+#: build/index.js:7813
+#: build/index.js:7843
+msgid "Download"
+msgstr ""
+
+#: build/index.js:20217
+#: build/index.js:7819
+msgid "Drive Move"
+msgstr ""
+
+#: build/index.js:20222
+#: build/index.js:7825
+msgid "Drive Rename Outline"
+msgstr ""
+
+#: build/index.js:20227
+#: build/index.js:7831
+msgid "Drive Folder Upload"
+msgstr ""
+
+#: build/index.js:20242
+#: build/index.js:7849
+msgid "Open"
+msgstr ""
+
+#: build/index.js:20247
+#: build/index.js:20302
+#: build/index.js:20307
+#: build/index.js:7855
+#: build/index.js:7921
+#: build/index.js:7927
+msgid "Upload"
+msgstr ""
+
+#: build/index.js:20252
+#: build/index.js:7861
+msgid "Folder"
+msgstr ""
+
+#: build/index.js:20257
+#: build/index.js:7867
+msgid "Folder Open"
+msgstr ""
+
+#: build/index.js:20262
+#: build/index.js:7873
+msgid "Folder Shared"
+msgstr ""
+
+#: build/index.js:20267
+#: build/index.js:7879
+msgid "Folder Zip"
+msgstr ""
+
+#: build/index.js:20272
+#: build/index.js:7885
+msgid "Grid View"
+msgstr ""
+
+#: build/index.js:20277
+#: build/index.js:7891
+msgid "spaper"
+msgstr ""
+
+#: build/index.js:20282
+#: build/index.js:7897
+msgid "Request Quote"
+msgstr ""
+
+#: build/index.js:20287
+#: build/index.js:7903
+msgid "Rule Folder"
+msgstr ""
+
+#: build/index.js:20292
+#: build/index.js:7909
+msgid "Text Snippet"
+msgstr ""
+
+#: build/index.js:20297
+#: build/index.js:7915
+msgid "Topic"
+msgstr ""
+
+#: build/index.js:20312
+#: build/index.js:23330
+#: build/index.js:7933
+#: build/index.js:12149
+msgid "Workspaces"
+msgstr ""
+
+#: build/index.js:20323
+#: build/index.js:7982
+msgid "Cast For Education"
+msgstr ""
+
+#: build/index.js:20328
+#: build/index.js:20519
+#: build/index.js:7988
+#: build/index.js:8260
+msgid "Computer"
+msgstr ""
+
+#: build/index.js:20333
+#: build/index.js:20524
+#: build/index.js:7994
+#: build/index.js:8266
+msgid "Desktop Windows"
+msgstr ""
+
+#: build/index.js:20338
+#: build/index.js:20529
+#: build/index.js:8000
+#: build/index.js:8272
+msgid "Developer Board"
+msgstr ""
+
+#: build/index.js:20343
+#: build/index.js:8006
+msgid "Device Hub"
+msgstr ""
+
+#: build/index.js:20348
+#: build/index.js:20564
+#: build/index.js:8012
+#: build/index.js:8314
+msgid "Headphones"
+msgstr ""
+
+#: build/index.js:20353
+#: build/index.js:8018
+msgid "Headset"
+msgstr ""
+
+#: build/index.js:20358
+#: build/index.js:20569
+#: build/index.js:8024
+#: build/index.js:8320
+msgid "Headset Mic"
+msgstr ""
+
+#: build/index.js:20363
+#: build/index.js:20574
+#: build/index.js:8030
+#: build/index.js:8326
+msgid "Keyboard Arrow Down"
+msgstr ""
+
+#: build/index.js:20368
+#: build/index.js:20579
+#: build/index.js:8036
+#: build/index.js:8332
+msgid "Keyboard Arrow Left"
+msgstr ""
+
+#: build/index.js:20373
+#: build/index.js:20584
+#: build/index.js:8042
+#: build/index.js:8338
+msgid "Keyboard Arrow Right"
+msgstr ""
+
+#: build/index.js:20378
+#: build/index.js:20589
+#: build/index.js:8048
+#: build/index.js:8344
+msgid "Keyboard Arrow Up"
+msgstr ""
+
+#: build/index.js:20383
+#: build/index.js:20594
+#: build/index.js:8054
+#: build/index.js:8350
+msgid "Keyboard Backspace"
+msgstr ""
+
+#: build/index.js:20388
+#: build/index.js:8060
+msgid "Keyboard Double Arrow Down"
+msgstr ""
+
+#: build/index.js:20393
+#: build/index.js:8066
+msgid "Keyboard Double Arrow Left"
+msgstr ""
+
+#: build/index.js:20398
+#: build/index.js:8072
+msgid "Keyboard Double Arrow Right"
+msgstr ""
+
+#: build/index.js:20403
+#: build/index.js:8078
+msgid "Keyboard Double Arrow Up"
+msgstr ""
+
+#: build/index.js:20408
+#: build/index.js:20599
+#: build/index.js:8084
+#: build/index.js:8356
+msgid "Keyboard"
+msgstr ""
+
+#: build/index.js:20413
+#: build/index.js:20604
+#: build/index.js:8090
+#: build/index.js:8362
+msgid "Keyboard Return"
+msgstr ""
+
+#: build/index.js:20418
+#: build/index.js:8096
+msgid "Keyboard Voice"
+msgstr ""
+
+#: build/index.js:20423
+#: build/index.js:8102
+msgid "Laptop"
+msgstr ""
+
+#: build/index.js:20428
+#: build/index.js:20614
+#: build/index.js:8108
+#: build/index.js:8374
+msgid "Laptop Mac"
+msgstr ""
+
+#: build/index.js:20433
+#: build/index.js:20629
+#: build/index.js:8114
+#: build/index.js:8392
+msgid "Memory"
+msgstr ""
+
+#: build/index.js:20438
+#: build/index.js:20634
+#: build/index.js:8120
+#: build/index.js:8398
+msgid "Mouse"
+msgstr ""
+
+#: build/index.js:20443
+#: build/index.js:20639
+#: build/index.js:8126
+#: build/index.js:8404
+msgid "Phone Android"
+msgstr ""
+
+#: build/index.js:20448
+#: build/index.js:20644
+#: build/index.js:8132
+#: build/index.js:8410
+msgid "Phonei Phone"
+msgstr ""
+
+#: build/index.js:20453
+#: build/index.js:20649
+#: build/index.js:8138
+#: build/index.js:8416
+msgid "Point Of Sale"
+msgstr ""
+
+#: build/index.js:20458
+#: build/index.js:20669
+#: build/index.js:8144
+#: build/index.js:8440
+msgid "Router"
+msgstr ""
+
+#: build/index.js:20463
+#: build/index.js:8150
+msgid "Security"
+msgstr ""
+
+#: build/index.js:20468
+#: build/index.js:20684
+#: build/index.js:8156
+#: build/index.js:8458
+msgid "Smart Display"
+msgstr ""
+
+#: build/index.js:20473
+#: build/index.js:20689
+#: build/index.js:8162
+#: build/index.js:8464
+msgid "Smartphone"
+msgstr ""
+
+#: build/index.js:20478
+#: build/index.js:20694
+#: build/index.js:8168
+#: build/index.js:8470
+msgid "Smart Toy"
+msgstr ""
+
+#: build/index.js:20483
+#: build/index.js:8174
+msgid "Start"
+msgstr ""
+
+#: build/index.js:20488
+#: build/index.js:20699
+#: build/index.js:8180
+#: build/index.js:8476
+msgid "Tv"
+msgstr ""
+
+#: build/index.js:20493
+#: build/index.js:20704
+#: build/index.js:8186
+#: build/index.js:8482
+msgid "Videogame Asset"
+msgstr ""
+
+#: build/index.js:20504
+#: build/index.js:8242
+msgid "Balance"
+msgstr ""
+
+#: build/index.js:20509
+#: build/index.js:8248
+msgid "Book Online"
+msgstr ""
+
+#: build/index.js:20514
+#: build/index.js:8254
+msgid "Cast"
+msgstr ""
+
+#: build/index.js:20534
+#: build/index.js:8278
+msgid "Developer Mode"
+msgstr ""
+
+#: build/index.js:20539
+#: build/index.js:8284
+msgid "Devices"
+msgstr ""
+
+#: build/index.js:20544
+#: build/index.js:8290
+msgid "Device Thermostat"
+msgstr ""
+
+#: build/index.js:20549
+#: build/index.js:8296
+msgid "Display Settings"
+msgstr ""
+
+#: build/index.js:20554
+#: build/index.js:8302
+msgid "Dns"
+msgstr ""
+
+#: build/index.js:20559
+#: build/index.js:8308
+msgid "Fax"
+msgstr ""
+
+#: build/index.js:20609
+#: build/index.js:8368
+msgid "Laptop Chromebook"
+msgstr ""
+
+#: build/index.js:20619
+#: build/index.js:8380
+msgid "Laptop Windows"
+msgstr ""
+
+#: build/index.js:20624
+#: build/index.js:22119
+#: build/index.js:8386
+#: build/index.js:10477
+msgid "Live Tv"
+msgstr ""
+
+#: build/index.js:20654
+#: build/index.js:22154
+#: build/index.js:8422
+#: build/index.js:10519
+msgid "Power"
+msgstr ""
+
+#: build/index.js:20659
+#: build/index.js:8428
+msgid "Print"
+msgstr ""
+
+#: build/index.js:20664
+#: build/index.js:8434
+msgid "Route"
+msgstr ""
+
+#: build/index.js:20679
+#: build/index.js:8452
+msgid "Scale"
+msgstr ""
+
+#: build/index.js:20709
+#: build/index.js:8488
+msgid "Watch"
+msgstr ""
+
+#: build/index.js:20720
+#: build/index.js:8529
+msgid "Auto Mode"
+msgstr ""
+
+#: build/index.js:20725
+#: build/index.js:8535
+msgid "Blinds Closed"
+msgstr ""
+
+#: build/index.js:20730
+#: build/index.js:8541
+msgid "Blinds"
+msgstr ""
+
+#: build/index.js:20735
+#: build/index.js:8547
+msgid "Broadcast On"
+msgstr ""
+
+#: build/index.js:20740
+#: build/index.js:8553
+msgid "Broadcast On Personal"
+msgstr ""
+
+#: build/index.js:20745
+#: build/index.js:8559
+msgid "Curtains Closed"
+msgstr ""
+
+#: build/index.js:20750
+#: build/index.js:8565
+msgid "Curtains"
+msgstr ""
+
+#: build/index.js:20755
+#: build/index.js:21142
+#: build/index.js:8571
+#: build/index.js:9121
+msgid "Electric Bolt"
+msgstr ""
+
+#: build/index.js:20760
+#: build/index.js:8577
+msgid "Electric Meter"
+msgstr ""
+
+#: build/index.js:20765
+#: build/index.js:21152
+#: build/index.js:8583
+#: build/index.js:9133
+msgid "Energy Savings Leaf"
+msgstr ""
+
+#: build/index.js:20770
+#: build/index.js:8589
+msgid "Gas Meter"
+msgstr ""
+
+#: build/index.js:20775
+#: build/index.js:8595
+msgid "Heat Pump"
+msgstr ""
+
+#: build/index.js:20780
+#: build/index.js:8601
+msgid "Mode Fan Off"
+msgstr ""
+
+#: build/index.js:20785
+#: build/index.js:8607
+msgid "Nest Cam Wired Stand"
+msgstr ""
+
+#: build/index.js:20790
+#: build/index.js:8613
+msgid "Oil Barrel"
+msgstr ""
+
+#: build/index.js:20795
+#: build/index.js:8619
+msgid "Propane"
+msgstr ""
+
+#: build/index.js:20800
+#: build/index.js:8625
+msgid "Propane Tank"
+msgstr ""
+
+#: build/index.js:20805
+#: build/index.js:8631
+msgid "Roller Shades Closed"
+msgstr ""
+
+#: build/index.js:20810
+#: build/index.js:8637
+msgid "Roller Shades"
+msgstr ""
+
+#: build/index.js:20815
+#: build/index.js:8643
+msgid "Sensor Door"
+msgstr ""
+
+#: build/index.js:20820
+#: build/index.js:21237
+#: build/index.js:8649
+#: build/index.js:9235
+msgid "Sensor Occupied"
+msgstr ""
+
+#: build/index.js:20825
+#: build/index.js:8655
+msgid "Sensor Window"
+msgstr ""
+
+#: build/index.js:20830
+#: build/index.js:8661
+msgid "Shield Moon"
+msgstr ""
+
+#: build/index.js:20835
+#: build/index.js:8667
+msgid "Solar Power"
+msgstr ""
+
+#: build/index.js:20840
+#: build/index.js:8673
+msgid "Vertical Shades Closed"
+msgstr ""
+
+#: build/index.js:20845
+#: build/index.js:8679
+msgid "Vertical Shades"
+msgstr ""
+
+#: build/index.js:20850
+#: build/index.js:8685
+msgid "Wind Power"
+msgstr ""
+
+#: build/index.js:20861
+#: build/index.js:8741
+msgid "Activity Zone"
+msgstr ""
+
+#: build/index.js:20866
+#: build/index.js:8747
+msgid "Airwave"
+msgstr ""
+
+#: build/index.js:20871
+#: build/index.js:8753
+msgid "Arrows More Up"
+msgstr ""
+
+#: build/index.js:20876
+#: build/index.js:8759
+msgid "Battery Horiz000"
+msgstr ""
+
+#: build/index.js:20881
+#: build/index.js:8765
+msgid "Battery Horiz050"
+msgstr ""
+
+#: build/index.js:20886
+#: build/index.js:8771
+msgid "Battery Horiz075"
+msgstr ""
+
+#: build/index.js:20891
+#: build/index.js:8777
+msgid "Cleaning Bucket"
+msgstr ""
+
+#: build/index.js:20896
+#: build/index.js:8783
+msgid "Detection And Zone"
+msgstr ""
+
+#: build/index.js:20901
+#: build/index.js:8789
+msgid "Detector Alarm"
+msgstr ""
+
+#: build/index.js:20906
+#: build/index.js:8795
+msgid "Device Reset"
+msgstr ""
+
+#: build/index.js:20911
+#: build/index.js:8801
+msgid "Door Open"
+msgstr ""
+
+#: build/index.js:20916
+#: build/index.js:8807
+msgid "Early On"
+msgstr ""
+
+#: build/index.js:20921
+#: build/index.js:8813
+msgid "Ev Charger"
+msgstr ""
+
+#: build/index.js:20926
+#: build/index.js:8819
+msgid "Familiar Face And Zone"
+msgstr ""
+
+#: build/index.js:20931
+#: build/index.js:8825
+msgid "Floor Lamp"
+msgstr ""
+
+#: build/index.js:20936
+#: build/index.js:8831
+msgid "Google Wifi"
+msgstr ""
+
+#: build/index.js:20946
+#: build/index.js:8843
+msgid "Laundry"
+msgstr ""
+
+#: build/index.js:20951
+#: build/index.js:8849
+msgid "Light Group"
+msgstr ""
+
+#: build/index.js:20956
+#: build/index.js:8855
+msgid "Mfg Nest Yale Lock"
+msgstr ""
+
+#: build/index.js:20961
+#: build/index.js:8861
+msgid "Nest Cam Indoor"
+msgstr ""
+
+#: build/index.js:20966
+#: build/index.js:8867
+msgid "Nest Cam Iq Outdoor"
+msgstr ""
+
+#: build/index.js:20971
+#: build/index.js:8873
+msgid "Nest Cam Outdoor"
+msgstr ""
+
+#: build/index.js:20976
+#: build/index.js:8879
+msgid "Nest Clock Farsight Analog"
+msgstr ""
+
+#: build/index.js:20981
+#: build/index.js:8885
+msgid "Nest Display"
+msgstr ""
+
+#: build/index.js:20986
+#: build/index.js:8891
+msgid "Nest Eco Leaf"
+msgstr ""
+
+#: build/index.js:20991
+#: build/index.js:8897
+msgid "Nest Heat Link E"
+msgstr ""
+
+#: build/index.js:20996
+#: build/index.js:8903
+msgid "Nest Heat Link Gen3"
+msgstr ""
+
+#: build/index.js:21001
+#: build/index.js:8909
+msgid "Nest Multi Room"
+msgstr ""
+
+#: build/index.js:21006
+#: build/index.js:8915
+msgid "Nest Remote Comfort Sensor"
+msgstr ""
+
+#: build/index.js:21011
+#: build/index.js:8921
+msgid "Nest Remote"
+msgstr ""
+
+#: build/index.js:21016
+#: build/index.js:8927
+msgid "Nest Secure Alarm"
+msgstr ""
+
+#: build/index.js:21021
+#: build/index.js:8933
+msgid "Nest Thermostat Gen3"
+msgstr ""
+
+#: build/index.js:21026
+#: build/index.js:8939
+msgid "Productivity"
+msgstr ""
+
+#: build/index.js:21031
+#: build/index.js:8945
+msgid "Settings Alert"
+msgstr ""
+
+#: build/index.js:21036
+#: build/index.js:8951
+msgid "Shield With Heart"
+msgstr ""
+
+#: build/index.js:21041
+#: build/index.js:8957
+msgid "Stadia Controller"
+msgstr ""
+
+#: build/index.js:21046
+#: build/index.js:8963
+msgid "Temp Preferences Eco"
+msgstr ""
+
+#: build/index.js:21051
+#: build/index.js:8969
+msgid "Tools Ladder"
+msgstr ""
+
+#: build/index.js:21056
+#: build/index.js:8975
+msgid "Tools Pliers Wire Stripper"
+msgstr ""
+
+#: build/index.js:21061
+#: build/index.js:8981
+msgid "Tools Power Drill"
+msgstr ""
+
+#: build/index.js:21066
+#: build/index.js:8987
+msgid "Weather Snowy"
+msgstr ""
+
+#: build/index.js:21077
+#: build/index.js:22451
+#: build/index.js:9043
+#: build/index.js:10954
+msgid "Ac Unit"
+msgstr ""
+
+#: build/index.js:21082
+#: build/index.js:9049
+msgid "Back Hand"
+msgstr ""
+
+#: build/index.js:21087
+#: build/index.js:22471
+#: build/index.js:9055
+#: build/index.js:10978
+msgid "Bathtub"
+msgstr ""
+
+#: build/index.js:21092
+#: build/index.js:22798
+#: build/index.js:9061
+#: build/index.js:11432
+msgid "Bed"
+msgstr ""
+
+#: build/index.js:21097
+#: build/index.js:22838
+#: build/index.js:9067
+#: build/index.js:11480
+msgid "Chair"
+msgstr ""
+
+#: build/index.js:21102
+#: build/index.js:22491
+#: build/index.js:9073
+#: build/index.js:11002
+msgid "Checkroom"
+msgstr ""
+
+#: build/index.js:21107
+#: build/index.js:22496
+#: build/index.js:9079
+#: build/index.js:11008
+msgid "Child Care"
+msgstr ""
+
+#: build/index.js:21112
+#: build/index.js:22848
+#: build/index.js:9085
+#: build/index.js:11492
+msgid "Coffee Maker"
+msgstr ""
+
+#: build/index.js:21117
+#: build/index.js:22843
+#: build/index.js:9091
+#: build/index.js:11486
+msgid "Coffee"
+msgstr ""
+
+#: build/index.js:21122
+#: build/index.js:9097
+msgid "Cooking"
+msgstr ""
+
+#: build/index.js:21127
+#: build/index.js:9103
+msgid "Deck"
+msgstr ""
+
+#: build/index.js:21132
+#: build/index.js:22853
+#: build/index.js:9109
+#: build/index.js:11498
+msgid "Dining"
+msgstr ""
+
+#: build/index.js:21137
+#: build/index.js:22868
+#: build/index.js:9115
+#: build/index.js:11516
+msgid "Door Front"
+msgstr ""
+
+#: build/index.js:21147
+#: build/index.js:9127
+msgid "Emergency Home"
+msgstr ""
+
+#: build/index.js:21157
+#: build/index.js:22883
+#: build/index.js:9139
+#: build/index.js:11534
+msgid "Flatware"
+msgstr ""
+
+#: build/index.js:21162
+#: build/index.js:22536
+#: build/index.js:9145
+#: build/index.js:11056
+msgid "Foundation"
+msgstr ""
+
+#: build/index.js:21167
+#: build/index.js:9151
+msgid "Garage Home"
+msgstr ""
+
+#: build/index.js:21172
+#: build/index.js:22888
+#: build/index.js:9157
+#: build/index.js:11540
+msgid "Garage"
+msgstr ""
+
+#: build/index.js:21177
+#: build/index.js:22551
+#: build/index.js:9163
+#: build/index.js:11074
+msgid "Grass"
+msgstr ""
+
+#: build/index.js:21182
+#: build/index.js:9169
+msgid "Highlight"
+msgstr ""
+
+#: build/index.js:21187
+#: build/index.js:22561
+#: build/index.js:9175
+#: build/index.js:11086
+msgid "House"
+msgstr ""
+
+#: build/index.js:21192
+#: build/index.js:9181
+msgid "Humidity High"
+msgstr ""
+
+#: build/index.js:21197
+#: build/index.js:9187
+msgid "King Bed"
+msgstr ""
+
+#: build/index.js:21202
+#: build/index.js:22566
+#: build/index.js:9193
+#: build/index.js:11092
+msgid "Kitchen"
+msgstr ""
+
+#: build/index.js:21207
+#: build/index.js:22893
+#: build/index.js:9199
+#: build/index.js:11546
+msgid "Light"
+msgstr ""
+
+#: build/index.js:21212
+#: build/index.js:9205
+msgid "Mode Fan"
+msgstr ""
+
+#: build/index.js:21217
+#: build/index.js:9211
+msgid "Mode Heat"
+msgstr ""
+
+#: build/index.js:21222
+#: build/index.js:9217
+msgid "Mop"
+msgstr ""
+
+#: build/index.js:21227
+#: build/index.js:9223
+msgid "Outdoor Grill"
+msgstr ""
+
+#: build/index.js:21232
+#: build/index.js:22591
+#: build/index.js:9229
+#: build/index.js:11122
+msgid "Roofing"
+msgstr ""
+
+#: build/index.js:21242
+#: build/index.js:9241
+msgid "Sensors"
+msgstr ""
+
+#: build/index.js:21247
+#: build/index.js:22913
+#: build/index.js:9247
+#: build/index.js:11570
+msgid "Shower"
+msgstr ""
+
+#: build/index.js:21252
+#: build/index.js:9253
+msgid "Styler"
+msgstr ""
+
+#: build/index.js:21257
+#: build/index.js:22923
+#: build/index.js:9259
+#: build/index.js:11582
+msgid "Table Restaurant"
+msgstr ""
+
+#: build/index.js:21262
+#: build/index.js:9265
+msgid "Thermometer"
+msgstr ""
+
+#: build/index.js:21267
+#: build/index.js:9271
+msgid "Valve"
+msgstr ""
+
+#: build/index.js:21272
+#: build/index.js:9277
+msgid "Weekend"
+msgstr ""
+
+#: build/index.js:21277
+#: build/index.js:22928
+#: build/index.js:9283
+#: build/index.js:11588
+msgid "Window"
+msgstr ""
+
+#: build/index.js:21282
+#: build/index.js:22933
+#: build/index.js:9289
+#: build/index.js:11594
+msgid "Yard"
+msgstr ""
+
+#: build/index.js:21293
+#: build/index.js:9338
+msgid "Add APhoto"
+msgstr ""
+
+#: build/index.js:21298
+#: build/index.js:9344
+msgid "Add Photo Alternate"
+msgstr ""
+
+#: build/index.js:21303
+#: build/index.js:9350
+msgid "Adjust"
+msgstr ""
+
+#: build/index.js:21308
+#: build/index.js:9356
+msgid "Audiotrack"
+msgstr ""
+
+#: build/index.js:21313
+#: build/index.js:9362
+msgid "Auto Awesome"
+msgstr ""
+
+#: build/index.js:21318
+#: build/index.js:9368
+msgid "Auto Fix High"
+msgstr ""
+
+#: build/index.js:21323
+#: build/index.js:9374
+msgid "Auto Stories"
+msgstr ""
+
+#: build/index.js:21328
+#: build/index.js:9380
+msgid "Brush"
+msgstr ""
+
+#: build/index.js:21333
+#: build/index.js:9386
+msgid "Camera Alt"
+msgstr ""
+
+#: build/index.js:21338
+#: build/index.js:9392
+msgid "Camera"
+msgstr ""
+
+#: build/index.js:21343
+#: build/index.js:9398
+msgid "Circle"
+msgstr ""
+
+#: build/index.js:21348
+#: build/index.js:9404
+msgid "Collections"
+msgstr ""
+
+#: build/index.js:21353
+#: build/index.js:9410
+msgid "Control Point"
+msgstr ""
+
+#: build/index.js:21358
+#: build/index.js:9416
+msgid "Edit"
+msgstr ""
+
+#: build/index.js:21363
+#: build/index.js:9422
+msgid "Euro"
+msgstr ""
+
+#: build/index.js:21368
+#: build/index.js:9428
+msgid "Flash On"
+msgstr ""
+
+#: build/index.js:21378
+#: build/index.js:9440
+msgid "Looks One"
+msgstr ""
+
+#: build/index.js:21383
+#: build/index.js:9446
+msgid "Music Note"
+msgstr ""
+
+#: build/index.js:21388
+#: build/index.js:9452
+msgid "Navigate Before"
+msgstr ""
+
+#: build/index.js:21393
+#: build/index.js:9458
+msgid "Navigate Next"
+msgstr ""
+
+#: build/index.js:21398
+#: build/index.js:9464
+msgid "Palette"
+msgstr ""
+
+#: build/index.js:21403
+#: build/index.js:9470
+msgid "Photo Camera"
+msgstr ""
+
+#: build/index.js:21408
+#: build/index.js:9476
+msgid "Photo Library"
+msgstr ""
+
+#: build/index.js:21413
+#: build/index.js:9482
+msgid "Picture As Pdf"
+msgstr ""
+
+#: build/index.js:21418
+#: build/index.js:9488
+msgid "Portrait"
+msgstr ""
+
+#: build/index.js:21423
+#: build/index.js:9494
+msgid "Receipt Long"
+msgstr ""
+
+#: build/index.js:21428
+#: build/index.js:9500
+msgid "Remove Red Eye"
+msgstr ""
+
+#: build/index.js:21433
+#: build/index.js:9506
+msgid "Rotate Right"
+msgstr ""
+
+#: build/index.js:21438
+#: build/index.js:9512
+msgid "Straighten"
+msgstr ""
+
+#: build/index.js:21443
+#: build/index.js:9518
+msgid "Style"
+msgstr ""
+
+#: build/index.js:21448
+#: build/index.js:9524
+msgid "Timer"
+msgstr ""
+
+#: build/index.js:21453
+#: build/index.js:9530
+msgid "Tune"
+msgstr ""
+
+#: build/index.js:21458
+#: build/index.js:9536
+msgid "Video Camera Front"
+msgstr ""
+
+#: build/index.js:21463
+#: build/index.js:9542
+msgid "Wb Sunny"
+msgstr ""
+
+#: build/index.js:21474
+#: build/index.js:9591
+msgid "Badge"
+msgstr ""
+
+#: build/index.js:21479
+#: build/index.js:9597
+msgid "Category"
+msgstr ""
+
+#: build/index.js:21484
+#: build/index.js:9603
+msgid "Celebration"
+msgstr ""
+
+#: build/index.js:21496
+#: build/index.js:9615
+msgid "Design Services"
+msgstr ""
+
+#: build/index.js:21501
+#: build/index.js:23673
+#: build/index.js:9621
+#: build/index.js:12660
+msgid "Directions Bus"
+msgstr ""
+
+#: build/index.js:21506
+#: build/index.js:23678
+#: build/index.js:9627
+#: build/index.js:12666
+msgid "Directions Car"
+msgstr ""
+
+#: build/index.js:21511
+#: build/index.js:23688
+#: build/index.js:9633
+#: build/index.js:12678
+msgid "Directions Run"
+msgstr ""
+
+#: build/index.js:21516
+#: build/index.js:23698
+#: build/index.js:9639
+#: build/index.js:12690
+msgid "Directions Walk"
+msgstr ""
+
+#: build/index.js:21521
+#: build/index.js:23733
+#: build/index.js:9645
+#: build/index.js:12732
+msgid "Flight"
+msgstr ""
+
+#: build/index.js:21526
+#: build/index.js:21702
+#: build/index.js:9651
+#: build/index.js:9905
+msgid "Handyman"
+msgstr ""
+
+#: build/index.js:21531
+#: build/index.js:21722
+#: build/index.js:9657
+#: build/index.js:9929
+msgid "Layers"
+msgstr ""
+
+#: build/index.js:21536
+#: build/index.js:21727
+#: build/index.js:9663
+#: build/index.js:9935
+msgid "Local Activity"
+msgstr ""
+
+#: build/index.js:21541
+#: build/index.js:9669
+msgid "Local Atm"
+msgstr ""
+
+#: build/index.js:21546
+#: build/index.js:23964
+#: build/index.js:9675
+#: build/index.js:13052
+msgid "Local Cafe"
+msgstr ""
+
+#: build/index.js:21551
+#: build/index.js:21732
+#: build/index.js:9681
+#: build/index.js:9941
+msgid "Local Fire Department"
+msgstr ""
+
+#: build/index.js:21556
+#: build/index.js:21742
+#: build/index.js:9687
+#: build/index.js:9953
+msgid "Local Hospital"
+msgstr ""
+
+#: build/index.js:21561
+#: build/index.js:21747
+#: build/index.js:9693
+#: build/index.js:9959
+msgid "Local Library"
+msgstr ""
+
+#: build/index.js:21566
+#: build/index.js:21752
+#: build/index.js:9699
+#: build/index.js:9965
+msgid "Local Mall"
+msgstr ""
+
+#: build/index.js:21571
+#: build/index.js:9705
+msgid "Local Offer"
+msgstr ""
+
+#: build/index.js:21576
+#: build/index.js:23753
+#: build/index.js:9711
+#: build/index.js:12756
+msgid "Local Shipping"
+msgstr ""
+
+#: build/index.js:21581
+#: build/index.js:23984
+#: build/index.js:9717
+#: build/index.js:13076
+msgid "Lunch Dining"
+msgstr ""
+
+#: build/index.js:21586
+#: build/index.js:21782
+#: build/index.js:9723
+#: build/index.js:10001
+msgid "Map"
+msgstr ""
+
+#: build/index.js:21591
+#: build/index.js:21787
+#: build/index.js:9729
+#: build/index.js:10007
+msgid "Medical Services"
+msgstr ""
+
+#: build/index.js:21596
+#: build/index.js:9735
+msgid "Menu Book"
+msgstr ""
+
+#: build/index.js:21601
+#: build/index.js:21792
+#: build/index.js:9741
+#: build/index.js:10013
+msgid "My Location"
+msgstr ""
+
+#: build/index.js:21606
+#: build/index.js:21802
+#: build/index.js:9747
+#: build/index.js:10025
+msgid "Near Me"
+msgstr ""
+
+#: build/index.js:21611
+#: build/index.js:9753
+msgid "Park"
+msgstr ""
+
+#: build/index.js:21616
+#: build/index.js:21817
+#: build/index.js:9759
+#: build/index.js:10043
+msgid "Person Pin"
+msgstr ""
+
+#: build/index.js:21621
+#: build/index.js:21822
+#: build/index.js:9765
+#: build/index.js:10049
+msgid "Pin Drop"
+msgstr ""
+
+#: build/index.js:21626
+#: build/index.js:9771
+msgid "Place"
+msgstr ""
+
+#: build/index.js:21631
+#: build/index.js:9777
+msgid "Rate Review"
+msgstr ""
+
+#: build/index.js:21636
+#: build/index.js:21832
+#: build/index.js:9783
+#: build/index.js:10061
+msgid "Restaurant"
+msgstr ""
+
+#: build/index.js:21641
+#: build/index.js:21827
+#: build/index.js:9789
+#: build/index.js:10055
+msgid "Restaurant Menu"
+msgstr ""
+
+#: build/index.js:21657
+#: build/index.js:9851
+msgid "Add Location"
+msgstr ""
+
+#: build/index.js:21662
+#: build/index.js:22481
+#: build/index.js:9857
+#: build/index.js:10990
+msgid "Business Center"
+msgstr ""
+
+#: build/index.js:21667
+#: build/index.js:9863
+msgid "Crisis Alert"
+msgstr ""
+
+#: build/index.js:21672
+#: build/index.js:21968
+#: build/index.js:9869
+#: build/index.js:10260
+msgid "East"
+msgstr ""
+
+#: build/index.js:21677
+#: build/index.js:9875
+msgid "Emergency"
+msgstr ""
+
+#: build/index.js:21682
+#: build/index.js:9881
+msgid "Explore"
+msgstr ""
+
+#: build/index.js:21687
+#: build/index.js:9887
+msgid "Factory"
+msgstr ""
+
+#: build/index.js:21692
+#: build/index.js:9893
+msgid "Fastfood"
+msgstr ""
+
+#: build/index.js:21707
+#: build/index.js:9911
+msgid "Home Pin"
+msgstr ""
+
+#: build/index.js:21712
+#: build/index.js:9917
+msgid "Home Repair Service"
+msgstr ""
+
+#: build/index.js:21717
+#: build/index.js:9923
+msgid "Home Work"
+msgstr ""
+
+#: build/index.js:21737
+#: build/index.js:9947
+msgid "Local Florist"
+msgstr ""
+
+#: build/index.js:21757
+#: build/index.js:9971
+msgid "Local Parking"
+msgstr ""
+
+#: build/index.js:21762
+#: build/index.js:9977
+msgid "Local Police"
+msgstr ""
+
+#: build/index.js:21767
+#: build/index.js:9983
+msgid "Location Away"
+msgstr ""
+
+#: build/index.js:21777
+#: build/index.js:9995
+msgid "Location Searching"
+msgstr ""
+
+#: build/index.js:21797
+#: build/index.js:24347
+#: build/index.js:10019
+#: build/index.js:13564
+msgid "Navigation"
+msgstr ""
+
+#: build/index.js:21807
+#: build/index.js:22018
+#: build/index.js:10031
+#: build/index.js:10320
+msgid "North East"
+msgstr ""
+
+#: build/index.js:21812
+#: build/index.js:10037
+msgid "Person Pin Circle"
+msgstr ""
+
+#: build/index.js:21837
+#: build/index.js:10067
+msgid "Share Location"
+msgstr ""
+
+#: build/index.js:21842
+#: build/index.js:22033
+#: build/index.js:10073
+#: build/index.js:10338
+msgid "South"
+msgstr ""
+
+#: build/index.js:21847
+#: build/index.js:10079
+msgid "Warehouse"
+msgstr ""
+
+#: build/index.js:21852
+#: build/index.js:22043
+#: build/index.js:10085
+#: build/index.js:10350
+msgid "West"
+msgstr ""
+
+#: build/index.js:21857
+#: build/index.js:10091
+msgid "Where To Vote"
+msgstr ""
+
+#: build/index.js:21862
+#: build/index.js:10097
+msgid "Zoom Out Map"
+msgstr ""
+
+#: build/index.js:21873
+#: build/index.js:10146
+msgid "Apps"
+msgstr ""
+
+#: build/index.js:21878
+#: build/index.js:21883
+#: build/index.js:10152
+#: build/index.js:10158
+msgid "Arrow Backi OS"
+msgstr ""
+
+#: build/index.js:21888
+#: build/index.js:10164
+msgid "Arrow Back"
+msgstr ""
+
+#: build/index.js:21893
+#: build/index.js:10170
+msgid "Arrow Downward"
+msgstr ""
+
+#: build/index.js:21898
+#: build/index.js:10176
+msgid "Arrow Drop Down"
+msgstr ""
+
+#: build/index.js:21903
+#: build/index.js:10182
+msgid "Arrow Drop Up"
+msgstr ""
+
+#: build/index.js:21908
+#: build/index.js:10188
+msgid "Arrow Forwardi OS"
+msgstr ""
+
+#: build/index.js:21913
+#: build/index.js:10194
+msgid "Arrow Forward"
+msgstr ""
+
+#: build/index.js:21918
+#: build/index.js:10200
+msgid "Arrow Left"
+msgstr ""
+
+#: build/index.js:21923
+#: build/index.js:10206
+msgid "Arrow Right"
+msgstr ""
+
+#: build/index.js:21928
+#: build/index.js:10212
+msgid "Arrow Upward"
+msgstr ""
+
+#: build/index.js:21938
+#: build/index.js:10224
+msgid "Cancel"
+msgstr ""
+
+#: build/index.js:21943
+#: build/index.js:10230
+msgid "Check"
+msgstr ""
+
+#: build/index.js:21948
+#: build/index.js:10236
+msgid "Chevron Left"
+msgstr ""
+
+#: build/index.js:21953
+#: build/index.js:10242
+msgid "Chevron Right"
+msgstr ""
+
+#: build/index.js:21958
+#: build/index.js:10248
+msgid "Close"
+msgstr ""
+
+#: build/index.js:21963
+#: build/index.js:10254
+msgid "Double Arrow"
+msgstr ""
+
+#: build/index.js:21973
+#: build/index.js:10266
+msgid "Expand Circle Down"
+msgstr ""
+
+#: build/index.js:21978
+#: build/index.js:10272
+msgid "Expand Less"
+msgstr ""
+
+#: build/index.js:21983
+#: build/index.js:10278
+msgid "Expand More"
+msgstr ""
+
+#: build/index.js:21988
+#: build/index.js:10284
+msgid "Fullscreen"
+msgstr ""
+
+#: build/index.js:21993
+#: build/index.js:10290
+msgid "Maps Home Work"
+msgstr ""
+
+#: build/index.js:21998
+#: build/index.js:10296
+msgid "Menu"
+msgstr ""
+
+#: build/index.js:22003
+#: build/index.js:10302
+msgid "Menu Open"
+msgstr ""
+
+#: build/index.js:22008
+#: build/index.js:10308
+msgid "More Horiz"
+msgstr ""
+
+#: build/index.js:22013
+#: build/index.js:10314
+msgid "More Vert"
+msgstr ""
+
+#: build/index.js:22023
+#: build/index.js:10326
+msgid "Payments"
+msgstr ""
+
+#: build/index.js:22028
+#: build/index.js:10332
+msgid "Refresh"
+msgstr ""
+
+#: build/index.js:22038
+#: build/index.js:10344
+msgid "Unfold More"
+msgstr ""
+
+#: build/index.js:22054
+#: build/index.js:10399
+msgid "Account Tree"
+msgstr ""
+
+#: build/index.js:22059
+#: build/index.js:10405
+msgid "ADB"
+msgstr ""
+
+#: build/index.js:22069
+#: build/index.js:10417
+msgid "Do Disturb"
+msgstr ""
+
+#: build/index.js:22074
+#: build/index.js:10423
+msgid "Do Disturb On"
+msgstr ""
+
+#: build/index.js:22079
+#: build/index.js:10429
+msgid "Do Not Disturb"
+msgstr ""
+
+#: build/index.js:22084
+#: build/index.js:10435
+msgid "Do Not Disturb On"
+msgstr ""
+
+#: build/index.js:22089
+#: build/index.js:10441
+msgid "Drive Eta"
+msgstr ""
+
+#: build/index.js:22094
+#: build/index.js:10447
+msgid "Enhanced Encryption"
+msgstr ""
+
+#: build/index.js:22099
+#: build/index.js:10453
+msgid "Event Available"
+msgstr ""
+
+#: build/index.js:22104
+#: build/index.js:10459
+msgid "Event Busy"
+msgstr ""
+
+#: build/index.js:22109
+#: build/index.js:10465
+msgid "Event Note"
+msgstr ""
+
+#: build/index.js:22114
+#: build/index.js:10471
+msgid "Folder Special"
+msgstr ""
+
+#: build/index.js:22124
+#: build/index.js:10483
+msgid "More"
+msgstr ""
+
+#: build/index.js:22134
+#: build/index.js:10495
+msgid "Ondemand Video"
+msgstr ""
+
+#: build/index.js:22139
+#: build/index.js:10501
+msgid "Personal Video"
+msgstr ""
+
+#: build/index.js:22144
+#: build/index.js:10507
+msgid "Phone Callback"
+msgstr ""
+
+#: build/index.js:22149
+#: build/index.js:10513
+msgid "Phone Forwarded"
+msgstr ""
+
+#: build/index.js:22159
+#: build/index.js:10525
+msgid "Power Off"
+msgstr ""
+
+#: build/index.js:22164
+#: build/index.js:10531
+msgid "Priority High"
+msgstr ""
+
+#: build/index.js:22169
+#: build/index.js:10537
+msgid "Running With Errors"
+msgstr ""
+
+#: build/index.js:22174
+#: build/index.js:10543
+msgid "Sms Failed"
+msgstr ""
+
+#: build/index.js:22184
+#: build/index.js:23290
+#: build/index.js:10555
+#: build/index.js:12101
+msgid "Support Agent"
+msgstr ""
+
+#: build/index.js:22189
+#: build/index.js:10561
+msgid "Sync"
+msgstr ""
+
+#: build/index.js:22194
+#: build/index.js:10567
+msgid "Sync Problem"
+msgstr ""
+
+#: build/index.js:22199
+#: build/index.js:10573
+msgid "System Update"
+msgstr ""
+
+#: build/index.js:22204
+#: build/index.js:10579
+msgid "Time To Leave"
+msgstr ""
+
+#: build/index.js:22209
+#: build/index.js:10585
+msgid "Vpn Lock"
+msgstr ""
+
+#: build/index.js:22214
+#: build/index.js:10591
+msgid "Wc"
+msgstr ""
+
+#: build/index.js:22235
+#: build/index.js:10659
+msgid "Photoandimage Add APhoto"
+msgstr ""
+
+#: build/index.js:22240
+#: build/index.js:10665
+msgid "Photoandimage Add Photo Alternate"
+msgstr ""
+
+#: build/index.js:22245
+#: build/index.js:10671
+msgid "Photoandimage Adjust"
+msgstr ""
+
+#: build/index.js:22250
+#: build/index.js:10677
+msgid "Photoandimage Aspect Ratio"
+msgstr ""
+
+#: build/index.js:22255
+#: build/index.js:10683
+msgid "Photoandimage Auto Stories"
+msgstr ""
+
+#: build/index.js:22260
+#: build/index.js:10689
+msgid "Photoandimage Blur On"
+msgstr ""
+
+#: build/index.js:22265
+#: build/index.js:10695
+msgid "Photoandimage Brightness6"
+msgstr ""
+
+#: build/index.js:22270
+#: build/index.js:10701
+msgid "Photoandimage Brush"
+msgstr ""
+
+#: build/index.js:22275
+#: build/index.js:10707
+msgid "Photoandimage Camera"
+msgstr ""
+
+#: build/index.js:22280
+#: build/index.js:10713
+msgid "Photoandimage Center Focus Strong"
+msgstr ""
+
+#: build/index.js:22285
+#: build/index.js:10719
+msgid "Photoandimage Circle"
+msgstr ""
+
+#: build/index.js:22290
+#: build/index.js:10725
+msgid "Photoandimage Contrast"
+msgstr ""
+
+#: build/index.js:22295
+#: build/index.js:10731
+msgid "Photoandimage Crop Free"
+msgstr ""
+
+#: build/index.js:22300
+#: build/index.js:10737
+msgid "Photoandimage Crop"
+msgstr ""
+
+#: build/index.js:22305
+#: build/index.js:10743
+msgid "Photoandimage Crop Square"
+msgstr ""
+
+#: build/index.js:22310
+#: build/index.js:10749
+msgid "Photoandimage Edit"
+msgstr ""
+
+#: build/index.js:22315
+#: build/index.js:10755
+msgid "Photoandimage Filter Alt"
+msgstr ""
+
+#: build/index.js:22320
+#: build/index.js:10761
+msgid "Photoandimage Filter Vintage"
+msgstr ""
+
+#: build/index.js:22325
+#: build/index.js:10767
+msgid "Photoandimage Flash On"
+msgstr ""
+
+#: build/index.js:22330
+#: build/index.js:10773
+msgid "Photoandimage Grid On"
+msgstr ""
+
+#: build/index.js:22335
+#: build/index.js:10779
+msgid "Photoandimage Image"
+msgstr ""
+
+#: build/index.js:22340
+#: build/index.js:10785
+msgid "Photoandimage Image Search"
+msgstr ""
+
+#: build/index.js:22345
+#: build/index.js:10791
+msgid "Photoandimage Imagesmode"
+msgstr ""
+
+#: build/index.js:22350
+#: build/index.js:10797
+msgid "Photoandimage Landscape"
+msgstr ""
+
+#: build/index.js:22355
+#: build/index.js:10803
+msgid "Photoandimage Looks One"
+msgstr ""
+
+#: build/index.js:22360
+#: build/index.js:10809
+msgid "Photoandimage Nature"
+msgstr ""
+
+#: build/index.js:22365
+#: build/index.js:10815
+msgid "Photoandimage Nature People"
+msgstr ""
+
+#: build/index.js:22370
+#: build/index.js:10821
+msgid "Photoandimage Navigate Before"
+msgstr ""
+
+#: build/index.js:22375
+#: build/index.js:10827
+msgid "Photoandimage Navigate Next"
+msgstr ""
+
+#: build/index.js:22380
+#: build/index.js:10833
+msgid "Photoandimage Palette"
+msgstr ""
+
+#: build/index.js:22385
+#: build/index.js:10839
+msgid "Photoandimage Photo Camera"
+msgstr ""
+
+#: build/index.js:22390
+#: build/index.js:10845
+msgid "Photoandimage Photo Library"
+msgstr ""
+
+#: build/index.js:22395
+#: build/index.js:10851
+msgid "Photoandimage Photo"
+msgstr ""
+
+#: build/index.js:22400
+#: build/index.js:10857
+msgid "Photoandimage Picture As Pdf"
+msgstr ""
+
+#: build/index.js:22405
+#: build/index.js:10863
+msgid "Photoandimage Rotate Right"
+msgstr ""
+
+#: build/index.js:22410
+#: build/index.js:10869
+msgid "Photoandimage Slideshow"
+msgstr ""
+
+#: build/index.js:22415
+#: build/index.js:10875
+msgid "Photoandimage Straighten"
+msgstr ""
+
+#: build/index.js:22420
+#: build/index.js:10881
+msgid "Photoandimage Style"
+msgstr ""
+
+#: build/index.js:22425
+#: build/index.js:10887
+msgid "Photoandimage Timelapse"
+msgstr ""
+
+#: build/index.js:22430
+#: build/index.js:10893
+msgid "Photoandimage Timer"
+msgstr ""
+
+#: build/index.js:22435
+#: build/index.js:10899
+msgid "Photoandimage Tune"
+msgstr ""
+
+#: build/index.js:22440
+#: build/index.js:10905
+msgid "Photoandimage Wb Sunny"
+msgstr ""
+
+#: build/index.js:22456
+#: build/index.js:23638
+#: build/index.js:10960
+#: build/index.js:12618
+msgid "Airport Shuttle"
+msgstr ""
+
+#: build/index.js:22461
+#: build/index.js:10966
+msgid "All Inclusive"
+msgstr ""
+
+#: build/index.js:22466
+#: build/index.js:23854
+#: build/index.js:10972
+#: build/index.js:12920
+msgid "Apartment"
+msgstr ""
+
+#: build/index.js:22476
+#: build/index.js:23869
+#: build/index.js:10984
+#: build/index.js:12938
+msgid "Beach Access"
+msgstr ""
+
+#: build/index.js:22486
+#: build/index.js:23879
+#: build/index.js:10996
+#: build/index.js:12950
+msgid "Casino"
+msgstr ""
+
+#: build/index.js:22501
+#: build/index.js:23884
+#: build/index.js:11014
+#: build/index.js:12956
+msgid "Child Friendly"
+msgstr ""
+
+#: build/index.js:22506
+#: build/index.js:11020
+msgid "Corporate Fare"
+msgstr ""
+
+#: build/index.js:22511
+#: build/index.js:23889
+#: build/index.js:11026
+#: build/index.js:12962
+msgid "Cottage"
+msgstr ""
+
+#: build/index.js:22516
+#: build/index.js:23904
+#: build/index.js:11032
+#: build/index.js:12980
+msgid "Escalator Warning"
+msgstr ""
+
+#: build/index.js:22521
+#: build/index.js:23909
+#: build/index.js:11038
+#: build/index.js:12986
+msgid "Family Restroom"
+msgstr ""
+
+#: build/index.js:22526
+#: build/index.js:23919
+#: build/index.js:11044
+#: build/index.js:12998
+msgid "Fitness Center"
+msgstr ""
+
+#: build/index.js:22531
+#: build/index.js:23924
+#: build/index.js:11050
+#: build/index.js:13004
+msgid "Food Bank"
+msgstr ""
+
+#: build/index.js:22541
+#: build/index.js:11062
+msgid "Free Breakfast"
+msgstr ""
+
+#: build/index.js:22546
+#: build/index.js:23929
+#: build/index.js:11068
+#: build/index.js:13010
+msgid "Gite"
+msgstr ""
+
+#: build/index.js:22556
+#: build/index.js:23939
+#: build/index.js:11080
+#: build/index.js:13022
+msgid "Holiday Village"
+msgstr ""
+
+#: build/index.js:22571
+#: build/index.js:11098
+msgid "Meeting Room"
+msgstr ""
+
+#: build/index.js:22576
+#: build/index.js:23999
+#: build/index.js:11104
+#: build/index.js:13094
+msgid "Night Shelter"
+msgstr ""
+
+#: build/index.js:22581
+#: build/index.js:24004
+#: build/index.js:11110
+#: build/index.js:13100
+msgid "Other Houses"
+msgstr ""
+
+#: build/index.js:22586
+#: build/index.js:24009
+#: build/index.js:11116
+#: build/index.js:13106
+msgid "Pool"
+msgstr ""
+
+#: build/index.js:22596
+#: build/index.js:11128
+msgid "Room Preferences"
+msgstr ""
+
+#: build/index.js:22601
+#: build/index.js:24019
+#: build/index.js:11134
+#: build/index.js:13118
+msgid "Room Service"
+msgstr ""
+
+#: build/index.js:22606
+#: build/index.js:24034
+#: build/index.js:11140
+#: build/index.js:13136
+msgid "Spa"
+msgstr ""
+
+#: build/index.js:22611
+#: build/index.js:24039
+#: build/index.js:11146
+#: build/index.js:13142
+msgid "Sports Bar"
+msgstr ""
+
+#: build/index.js:22616
+#: build/index.js:11152
+msgid "Storefront"
+msgstr ""
+
+#: build/index.js:22621
+#: build/index.js:24049
+#: build/index.js:11158
+#: build/index.js:13154
+msgid "Villa"
+msgstr ""
+
+#: build/index.js:22632
+#: build/index.js:11203
+msgid "Privacyandsecurity Add Moderator"
+msgstr ""
+
+#: build/index.js:22637
+#: build/index.js:11209
+msgid "Privacyandsecurity Admin Panel Settings"
+msgstr ""
+
+#: build/index.js:22642
+#: build/index.js:11215
+msgid "Privacyandsecurity Assured Workload"
+msgstr ""
+
+#: build/index.js:22647
+#: build/index.js:11221
+msgid "Privacyandsecurity Badge"
+msgstr ""
+
+#: build/index.js:22652
+#: build/index.js:11227
+msgid "Privacyandsecurity Disabled Visible"
+msgstr ""
+
+#: build/index.js:22657
+#: build/index.js:11233
+msgid "Privacyandsecurity E911Emergency"
+msgstr ""
+
+#: build/index.js:22662
+#: build/index.js:11239
+msgid "Privacyandsecurity Encrypted"
+msgstr ""
+
+#: build/index.js:22667
+#: build/index.js:11245
+msgid "Privacyandsecurity Enhanced Encryption"
+msgstr ""
+
+#: build/index.js:22672
+#: build/index.js:11251
+msgid "Privacyandsecurity Exclamation"
+msgstr ""
+
+#: build/index.js:22677
+#: build/index.js:11257
+msgid "Privacyandsecurity Key Visualizer"
+msgstr ""
+
+#: build/index.js:22682
+#: build/index.js:11263
+msgid "Privacyandsecurity No Encryption"
+msgstr ""
+
+#: build/index.js:22687
+#: build/index.js:11269
+msgid "Privacyandsecurity Passkey"
+msgstr ""
+
+#: build/index.js:22692
+#: build/index.js:11275
+msgid "Privacyandsecurity Policy"
+msgstr ""
+
+#: build/index.js:22697
+#: build/index.js:11281
+msgid "Privacyandsecurity Privacy Tip"
+msgstr ""
+
+#: build/index.js:22702
+#: build/index.js:11287
+msgid "Privacyandsecurity Private Connectivity"
+msgstr ""
+
+#: build/index.js:22707
+#: build/index.js:11293
+msgid "Privacyandsecurity Remove Moderator"
+msgstr ""
+
+#: build/index.js:22712
+#: build/index.js:11299
+msgid "Privacyandsecurity Report"
+msgstr ""
+
+#: build/index.js:22717
+#: build/index.js:11305
+msgid "Privacyandsecurity Report Off"
+msgstr ""
+
+#: build/index.js:22722
+#: build/index.js:11311
+msgid "Privacyandsecurity Security"
+msgstr ""
+
+#: build/index.js:22727
+#: build/index.js:11317
+msgid "Privacyandsecurity Shield Locked"
+msgstr ""
+
+#: build/index.js:22732
+#: build/index.js:11323
+msgid "Privacyandsecurity Shield Lock"
+msgstr ""
+
+#: build/index.js:22737
+#: build/index.js:11329
+msgid "Privacyandsecurity Shield"
+msgstr ""
+
+#: build/index.js:22742
+#: build/index.js:11335
+msgid "Privacyandsecurity Shield Person"
+msgstr ""
+
+#: build/index.js:22747
+#: build/index.js:11341
+msgid "Privacyandsecurity Shield Question"
+msgstr ""
+
+#: build/index.js:22752
+#: build/index.js:11347
+msgid "Privacyandsecurity Sync Lock"
+msgstr ""
+
+#: build/index.js:22757
+#: build/index.js:11353
+msgid "Privacyandsecurity Verified User"
+msgstr ""
+
+#: build/index.js:22762
+#: build/index.js:11359
+msgid "Privacyandsecurity Vpn Key Alert"
+msgstr ""
+
+#: build/index.js:22767
+#: build/index.js:11365
+msgid "Privacyandsecurity Vpn Key"
+msgstr ""
+
+#: build/index.js:22772
+#: build/index.js:11371
+msgid "Privacyandsecurity Vpn Key Off"
+msgstr ""
+
+#: build/index.js:22777
+#: build/index.js:11377
+msgid "Privacyandsecurity Vpn Lock"
+msgstr ""
+
+#: build/index.js:22782
+#: build/index.js:11383
+msgid "Privacyandsecurity Wifi Password"
+msgstr ""
+
+#: build/index.js:22793
+#: build/index.js:11426
+msgid "Bathroom"
+msgstr ""
+
+#: build/index.js:22803
+#: build/index.js:11438
+msgid "Bedroom Baby"
+msgstr ""
+
+#: build/index.js:22808
+#: build/index.js:11444
+msgid "Bedroom Child"
+msgstr ""
+
+#: build/index.js:22813
+#: build/index.js:11450
+msgid "Bedroom Parent"
+msgstr ""
+
+#: build/index.js:22818
+#: build/index.js:11456
+msgid "Blender"
+msgstr ""
+
+#: build/index.js:22823
+#: build/index.js:11462
+msgid "Camera Indoor"
+msgstr ""
+
+#: build/index.js:22828
+#: build/index.js:11468
+msgid "Camera Outdoor"
+msgstr ""
+
+#: build/index.js:22833
+#: build/index.js:11474
+msgid "Chair Alt"
+msgstr ""
+
+#: build/index.js:22858
+#: build/index.js:11504
+msgid "Door Back"
+msgstr ""
+
+#: build/index.js:22863
+#: build/index.js:11510
+msgid "Doorbell"
+msgstr ""
+
+#: build/index.js:22873
+#: build/index.js:11522
+msgid "Door Sliding"
+msgstr ""
+
+#: build/index.js:22878
+#: build/index.js:11528
+msgid "Feed"
+msgstr ""
+
+#: build/index.js:22898
+#: build/index.js:11552
+msgid "Living"
+msgstr ""
+
+#: build/index.js:22903
+#: build/index.js:11558
+msgid "Manage"
+msgstr ""
+
+#: build/index.js:22908
+#: build/index.js:11564
+msgid "Podcasts"
+msgstr ""
+
+#: build/index.js:22918
+#: build/index.js:11576
+msgid "Table Bar"
+msgstr ""
+
+#: build/index.js:22949
+#: build/index.js:11649
+msgid "Emoji Emotions"
+msgstr ""
+
+#: build/index.js:22954
+#: build/index.js:11655
+msgid "Emoji Events"
+msgstr ""
+
+#: build/index.js:22959
+#: build/index.js:23150
+#: build/index.js:11661
+#: build/index.js:11933
+msgid "Emoji Objects"
+msgstr ""
+
+#: build/index.js:22969
+#: build/index.js:23175
+#: build/index.js:11673
+#: build/index.js:11963
+msgid "Group Add"
+msgstr ""
+
+#: build/index.js:22974
+#: build/index.js:23180
+#: build/index.js:11679
+#: build/index.js:11969
+msgid "Group"
+msgstr ""
+
+#: build/index.js:22979
+#: build/index.js:23185
+#: build/index.js:11685
+#: build/index.js:11975
+msgid "Groups"
+msgstr ""
+
+#: build/index.js:22984
+#: build/index.js:23195
+#: build/index.js:11691
+#: build/index.js:11987
+msgid "Health And Safety"
+msgstr ""
+
+#: build/index.js:22989
+#: build/index.js:11697
+msgid "History Edu"
+msgstr ""
+
+#: build/index.js:22994
+#: build/index.js:11703
+msgid "i OSShare"
+msgstr ""
+
+#: build/index.js:22999
+#: build/index.js:23974
+#: build/index.js:11709
+#: build/index.js:13064
+msgid "Location City"
+msgstr ""
+
+#: build/index.js:23004
+#: build/index.js:23200
+#: build/index.js:11715
+#: build/index.js:11993
+msgid "Military Tech"
+msgstr ""
+
+#: build/index.js:23019
+#: build/index.js:11733
+msgid "Notifications None"
+msgstr ""
+
+#: build/index.js:23024
+#: build/index.js:11739
+msgid "People Alt"
+msgstr ""
+
+#: build/index.js:23029
+#: build/index.js:11745
+msgid "People"
+msgstr ""
+
+#: build/index.js:23034
+#: build/index.js:11751
+msgid "Person Add Alt"
+msgstr ""
+
+#: build/index.js:23039
+#: build/index.js:23215
+#: build/index.js:11757
+#: build/index.js:12011
+msgid "Person Add"
+msgstr ""
+
+#: build/index.js:23044
+#: build/index.js:23220
+#: build/index.js:11763
+#: build/index.js:12017
+msgid "Person"
+msgstr ""
+
+#: build/index.js:23049
+#: build/index.js:11769
+msgid "Person Outline"
+msgstr ""
+
+#: build/index.js:23054
+#: build/index.js:11775
+msgid "Precision Manufacturing"
+msgstr ""
+
+#: build/index.js:23059
+#: build/index.js:23235
+#: build/index.js:11781
+#: build/index.js:12035
+msgid "Psychology"
+msgstr ""
+
+#: build/index.js:23064
+#: build/index.js:23240
+#: build/index.js:11787
+#: build/index.js:12041
+msgid "Public"
+msgstr ""
+
+#: build/index.js:23079
+#: build/index.js:23270
+#: build/index.js:11805
+#: build/index.js:12077
+msgid "Sentiment Satisfied"
+msgstr ""
+
+#: build/index.js:23084
+#: build/index.js:23275
+#: build/index.js:11811
+#: build/index.js:12083
+msgid "Sentiment Very Satisfied"
+msgstr ""
+
+#: build/index.js:23089
+#: build/index.js:23280
+#: build/index.js:11817
+#: build/index.js:12089
+msgid "Share"
+msgstr ""
+
+#: build/index.js:23099
+#: build/index.js:11829
+msgid "Thumb Up Alt"
+msgstr ""
+
+#: build/index.js:23104
+#: build/index.js:23305
+#: build/index.js:11835
+#: build/index.js:12119
+msgid "Travel Explore"
+msgstr ""
+
+#: build/index.js:23109
+#: build/index.js:23315
+#: build/index.js:11841
+#: build/index.js:12131
+msgid "Water Drop"
+msgstr ""
+
+#: build/index.js:23114
+#: build/index.js:23325
+#: build/index.js:11847
+#: build/index.js:12143
+msgid "Workspace Premium"
+msgstr ""
+
+#: build/index.js:23125
+#: build/index.js:11903
+msgid "Compost"
+msgstr ""
+
+#: build/index.js:23130
+#: build/index.js:11909
+msgid "Diamond"
+msgstr ""
+
+#: build/index.js:23135
+#: build/index.js:11915
+msgid "Diversity1"
+msgstr ""
+
+#: build/index.js:23140
+#: build/index.js:11921
+msgid "Diversity3"
+msgstr ""
+
+#: build/index.js:23145
+#: build/index.js:11927
+msgid "Eco"
+msgstr ""
+
+#: build/index.js:23155
+#: build/index.js:11939
+msgid "Emoji People"
+msgstr ""
+
+#: build/index.js:23165
+#: build/index.js:11951
+msgid "Forest"
+msgstr ""
+
+#: build/index.js:23170
+#: build/index.js:11957
+msgid "Gavel"
+msgstr ""
+
+#: build/index.js:23190
+#: build/index.js:11981
+msgid "Handshake"
+msgstr ""
+
+#: build/index.js:23210
+#: build/index.js:12005
+msgid "Mood"
+msgstr ""
+
+#: build/index.js:23225
+#: build/index.js:12023
+msgid "Person Remove"
+msgstr ""
+
+#: build/index.js:23230
+#: build/index.js:12029
+msgid "Pets"
+msgstr ""
+
+#: build/index.js:23250
+#: build/index.js:12053
+msgid "Recommend"
+msgstr ""
+
+#: build/index.js:23255
+#: build/index.js:12059
+msgid "Recycling"
+msgstr ""
+
+#: build/index.js:23260
+#: build/index.js:12065
+msgid "Rocket Launch"
+msgstr ""
+
+#: build/index.js:23265
+#: build/index.js:12071
+msgid "Sentiment Dissatisfied"
+msgstr ""
+
+#: build/index.js:23285
+#: build/index.js:12095
+msgid "Sunny"
+msgstr ""
+
+#: build/index.js:23295
+#: build/index.js:12107
+msgid "Thumb Down"
+msgstr ""
+
+#: build/index.js:23310
+#: build/index.js:12125
+msgid "Vaccines"
+msgstr ""
+
+#: build/index.js:23320
+#: build/index.js:12137
+msgid "Waving Hand"
+msgstr ""
+
+#: build/index.js:23341
+#: build/index.js:12205
+msgid "Textformatting Archive"
+msgstr ""
+
+#: build/index.js:23346
+#: build/index.js:12211
+msgid "Textformatting Article"
+msgstr ""
+
+#: build/index.js:23351
+#: build/index.js:12217
+msgid "Textformatting Assignment"
+msgstr ""
+
+#: build/index.js:23356
+#: build/index.js:12223
+msgid "Textformatting Attach File"
+msgstr ""
+
+#: build/index.js:23361
+#: build/index.js:12229
+msgid "Textformatting Book"
+msgstr ""
+
+#: build/index.js:23366
+#: build/index.js:12235
+msgid "Textformatting Border Color"
+msgstr ""
+
+#: build/index.js:23371
+#: build/index.js:12241
+msgid "Textformatting Checklist"
+msgstr ""
+
+#: build/index.js:23376
+#: build/index.js:12247
+msgid "Textformatting Cloud Download"
+msgstr ""
+
+#: build/index.js:23381
+#: build/index.js:12253
+msgid "Textformatting Cloud"
+msgstr ""
+
+#: build/index.js:23386
+#: build/index.js:12259
+msgid "Textformatting Cloud Upload"
+msgstr ""
+
+#: build/index.js:23391
+#: build/index.js:12265
+msgid "Textformatting Contact Page"
+msgstr ""
+
+#: build/index.js:23396
+#: build/index.js:12271
+msgid "Textformatting Content Copy"
+msgstr ""
+
+#: build/index.js:23401
+#: build/index.js:12277
+msgid "Textformatting Dashboard"
+msgstr ""
+
+#: build/index.js:23406
+#: build/index.js:12283
+msgid "Textformatting Description"
+msgstr ""
+
+#: build/index.js:23411
+#: build/index.js:12289
+msgid "Textformatting Design Services"
+msgstr ""
+
+#: build/index.js:23416
+#: build/index.js:12295
+msgid "Textformatting Draft"
+msgstr ""
+
+#: build/index.js:23421
+#: build/index.js:12301
+msgid "Textformatting Drag Handle"
+msgstr ""
+
+#: build/index.js:23426
+#: build/index.js:12307
+msgid "Textformatting Draw"
+msgstr ""
+
+#: build/index.js:23431
+#: build/index.js:12313
+msgid "Textformatting Edit Note"
+msgstr ""
+
+#: build/index.js:23436
+#: build/index.js:12319
+msgid "Textformatting Fact Check"
+msgstr ""
+
+#: build/index.js:23441
+#: build/index.js:12325
+msgid "Textformatting Feed"
+msgstr ""
+
+#: build/index.js:23446
+#: build/index.js:12331
+msgid "Textformatting File Copy"
+msgstr ""
+
+#: build/index.js:23451
+#: build/index.js:12337
+msgid "Textformatting Folder"
+msgstr ""
+
+#: build/index.js:23456
+#: build/index.js:12343
+msgid "Textformatting Folder Open"
+msgstr ""
+
+#: build/index.js:23461
+#: build/index.js:12349
+msgid "Textformatting Format List Bulleted"
+msgstr ""
+
+#: build/index.js:23466
+#: build/index.js:12355
+msgid "Textformatting Format Quote"
+msgstr ""
+
+#: build/index.js:23471
+#: build/index.js:12361
+msgid "Textformatting Grid View"
+msgstr ""
+
+#: build/index.js:23476
+#: build/index.js:12367
+msgid "Textformatting History Edu"
+msgstr ""
+
+#: build/index.js:23481
+#: build/index.js:12373
+msgid "Textformatting Inventory"
+msgstr ""
+
+#: build/index.js:23486
+#: build/index.js:12379
+msgid "Textformatting List Alt"
+msgstr ""
+
+#: build/index.js:23491
+#: build/index.js:12385
+msgid "Textformatting List"
+msgstr ""
+
+#: build/index.js:23496
+#: build/index.js:12391
+msgid "Textformatting Menu Book"
+msgstr ""
+
+#: build/index.js:23501
+#: build/index.js:12397
+msgid "Textformattingspaper"
+msgstr ""
+
+#: build/index.js:23506
+#: build/index.js:12403
+msgid "Textformatting Note Add"
+msgstr ""
+
+#: build/index.js:23511
+#: build/index.js:12409
+msgid "Textformatting Pending Actions"
+msgstr ""
+
+#: build/index.js:23516
+#: build/index.js:12415
+msgid "Textformatting Post Add"
+msgstr ""
+
+#: build/index.js:23521
+#: build/index.js:12421
+msgid "Textformatting Request Quote"
+msgstr ""
+
+#: build/index.js:23526
+#: build/index.js:12427
+msgid "Textformatting Space Dashboard"
+msgstr ""
+
+#: build/index.js:23531
+#: build/index.js:12433
+msgid "Textformatting Summarize"
+msgstr ""
+
+#: build/index.js:23536
+#: build/index.js:12439
+msgid "Textformatting Table"
+msgstr ""
+
+#: build/index.js:23541
+#: build/index.js:12445
+msgid "Textformatting Task"
+msgstr ""
+
+#: build/index.js:23546
+#: build/index.js:12451
+msgid "Textformatting View List"
+msgstr ""
+
+#: build/index.js:23557
+#: build/index.js:12478
+msgid "Check Box"
+msgstr ""
+
+#: build/index.js:23562
+#: build/index.js:12484
+msgid "Check Box Outline Blank"
+msgstr ""
+
+#: build/index.js:23567
+#: build/index.js:12490
+msgid "Indeterminate Check Box"
+msgstr ""
+
+#: build/index.js:23572
+#: build/index.js:12496
+msgid "Radio Button Checked"
+msgstr ""
+
+#: build/index.js:23577
+#: build/index.js:12502
+msgid "Radio Button Unchecked"
+msgstr ""
+
+#: build/index.js:23582
+#: build/index.js:12508
+msgid "Star Border"
+msgstr ""
+
+#: build/index.js:23587
+#: build/index.js:12514
+msgid "Star Border Purple500"
+msgstr ""
+
+#: build/index.js:23592
+#: build/index.js:12520
+msgid "Star Half"
+msgstr ""
+
+#: build/index.js:23597
+#: build/index.js:12526
+msgid "Star"
+msgstr ""
+
+#: build/index.js:23602
+#: build/index.js:12532
+msgid "Star Outline"
+msgstr ""
+
+#: build/index.js:23607
+#: build/index.js:12538
+msgid "Star Purple500"
+msgstr ""
+
+#: build/index.js:23612
+#: build/index.js:12544
+msgid "Off"
+msgstr ""
+
+#: build/index.js:23617
+#: build/index.js:12550
+msgid "On"
+msgstr ""
+
+#: build/index.js:23628
+#: build/index.js:12606
+msgid "Agriculture"
+msgstr ""
+
+#: build/index.js:23633
+#: build/index.js:12612
+msgid "Airlines"
+msgstr ""
+
+#: build/index.js:23643
+#: build/index.js:12624
+msgid "Bus Alert"
+msgstr ""
+
+#: build/index.js:23648
+#: build/index.js:12630
+msgid "Car Crash"
+msgstr ""
+
+#: build/index.js:23653
+#: build/index.js:12636
+msgid "Commute"
+msgstr ""
+
+#: build/index.js:23658
+#: build/index.js:12642
+msgid "Departure Board"
+msgstr ""
+
+#: build/index.js:23663
+#: build/index.js:12648
+msgid "Directions Bike"
+msgstr ""
+
+#: build/index.js:23668
+#: build/index.js:12654
+msgid "Directions Boat"
+msgstr ""
+
+#: build/index.js:23683
+#: build/index.js:12672
+msgid "Directions Railway"
+msgstr ""
+
+#: build/index.js:23693
+#: build/index.js:12684
+msgid "Directions Subway"
+msgstr ""
+
+#: build/index.js:23703
+#: build/index.js:12696
+msgid "Electric Bike"
+msgstr ""
+
+#: build/index.js:23708
+#: build/index.js:12702
+msgid "Electric Car"
+msgstr ""
+
+#: build/index.js:23713
+#: build/index.js:12708
+msgid "Electric Moped"
+msgstr ""
+
+#: build/index.js:23718
+#: build/index.js:12714
+msgid "Electric Rickshaw"
+msgstr ""
+
+#: build/index.js:23723
+#: build/index.js:12720
+msgid "Electric Scooter"
+msgstr ""
+
+#: build/index.js:23728
+#: build/index.js:12726
+msgid "Flight Land"
+msgstr ""
+
+#: build/index.js:23738
+#: build/index.js:12738
+msgid "Flight Takeoff"
+msgstr ""
+
+#: build/index.js:23743
+#: build/index.js:12744
+msgid "Fork Right"
+msgstr ""
+
+#: build/index.js:23748
+#: build/index.js:12750
+msgid "Hail"
+msgstr ""
+
+#: build/index.js:23758
+#: build/index.js:12762
+msgid "Local Taxi"
+msgstr ""
+
+#: build/index.js:23763
+#: build/index.js:12768
+msgid "Motorcycle"
+msgstr ""
+
+#: build/index.js:23768
+#: build/index.js:12774
+msgid "No Crash"
+msgstr ""
+
+#: build/index.js:23773
+#: build/index.js:12780
+msgid "Pedal Bike"
+msgstr ""
+
+#: build/index.js:23778
+#: build/index.js:12786
+msgid "Rv Hookup"
+msgstr ""
+
+#: build/index.js:23783
+#: build/index.js:12792
+msgid "Sailing"
+msgstr ""
+
+#: build/index.js:23788
+#: build/index.js:12798
+msgid "Subway"
+msgstr ""
+
+#: build/index.js:23793
+#: build/index.js:12804
+msgid "Taxi Alert"
+msgstr ""
+
+#: build/index.js:23798
+#: build/index.js:12810
+msgid "Tire Repair"
+msgstr ""
+
+#: build/index.js:23803
+#: build/index.js:12816
+msgid "Train"
+msgstr ""
+
+#: build/index.js:23808
+#: build/index.js:12822
+msgid "Tram"
+msgstr ""
+
+#: build/index.js:23818
+#: build/index.js:12834
+msgid "Turn Left"
+msgstr ""
+
+#: build/index.js:23823
+#: build/index.js:12840
+msgid "Turn Right"
+msgstr ""
+
+#: build/index.js:23828
+#: build/index.js:12846
+msgid "Two Wheeler"
+msgstr ""
+
+#: build/index.js:23833
+#: build/index.js:12852
+msgid "UTurn Left"
+msgstr ""
+
+#: build/index.js:23844
+#: build/index.js:12908
+msgid "Airline Seat Recline Normal"
+msgstr ""
+
+#: build/index.js:23849
+#: build/index.js:12914
+msgid "Airplane Ticket"
+msgstr ""
+
+#: build/index.js:23859
+#: build/index.js:12926
+msgid "Attractions"
+msgstr ""
+
+#: build/index.js:23864
+#: build/index.js:12932
+msgid "Bakery Dining"
+msgstr ""
+
+#: build/index.js:23874
+#: build/index.js:12944
+msgid "Car Rental"
+msgstr ""
+
+#: build/index.js:23894
+#: build/index.js:12968
+msgid "Dinner Dining"
+msgstr ""
+
+#: build/index.js:23899
+#: build/index.js:12974
+msgid "Elevator"
+msgstr ""
+
+#: build/index.js:23914
+#: build/index.js:12992
+msgid "Festival"
+msgstr ""
+
+#: build/index.js:23934
+#: build/index.js:13016
+msgid "Golf Course"
+msgstr ""
+
+#: build/index.js:23944
+#: build/index.js:13028
+msgid "Hotel"
+msgstr ""
+
+#: build/index.js:23949
+#: build/index.js:13034
+msgid "Icecream"
+msgstr ""
+
+#: build/index.js:23954
+#: build/index.js:13040
+msgid "Liquor"
+msgstr ""
+
+#: build/index.js:23959
+#: build/index.js:13046
+msgid "Local Bar"
+msgstr ""
+
+#: build/index.js:23969
+#: build/index.js:13058
+msgid "Local Dining"
+msgstr ""
+
+#: build/index.js:23979
+#: build/index.js:13070
+msgid "Luggage"
+msgstr ""
+
+#: build/index.js:23989
+#: build/index.js:13082
+msgid "Museum"
+msgstr ""
+
+#: build/index.js:23994
+#: build/index.js:13088
+msgid "Nightlife"
+msgstr ""
+
+#: build/index.js:24014
+#: build/index.js:13112
+msgid "Ramen Dining"
+msgstr ""
+
+#: build/index.js:24024
+#: build/index.js:13124
+msgid "Smoke Free"
+msgstr ""
+
+#: build/index.js:24029
+#: build/index.js:13130
+msgid "Smoking Rooms"
+msgstr ""
+
+#: build/index.js:24044
+#: build/index.js:13148
+msgid "Stairs"
+msgstr ""
+
+#: build/index.js:24060
+#: build/index.js:13210
+msgid "Uiactions Add Circle"
+msgstr ""
+
+#: build/index.js:24065
+#: build/index.js:13216
+msgid "Uiactions Add"
+msgstr ""
+
+#: build/index.js:24070
+#: build/index.js:13222
+msgid "Uiactions Apps"
+msgstr ""
+
+#: build/index.js:24075
+#: build/index.js:13228
+msgid "Uiactions Arrow Backi OS"
+msgstr ""
+
+#: build/index.js:24080
+#: build/index.js:13234
+msgid "Uiactions Arrow Back"
+msgstr ""
+
+#: build/index.js:24085
+#: build/index.js:13240
+msgid "Uiactions Arrow Drop Down"
+msgstr ""
+
+#: build/index.js:24090
+#: build/index.js:13246
+msgid "Uiactions Arrow Forwardi OS"
+msgstr ""
+
+#: build/index.js:24095
+#: build/index.js:13252
+msgid "Uiactions Arrow Forward"
+msgstr ""
+
+#: build/index.js:24100
+#: build/index.js:13258
+msgid "Uiactions Arrow Right Alt"
+msgstr ""
+
+#: build/index.js:24105
+#: build/index.js:13264
+msgid "Uiactions Arrow Upward"
+msgstr ""
+
+#: build/index.js:24110
+#: build/index.js:13270
+msgid "Uiactions Bolt"
+msgstr ""
+
+#: build/index.js:24115
+#: build/index.js:13276
+msgid "Uiactions Cancel"
+msgstr ""
+
+#: build/index.js:24120
+#: build/index.js:13282
+msgid "Uiactions Check Box"
+msgstr ""
+
+#: build/index.js:24125
+#: build/index.js:13288
+msgid "Uiactions Check Box Outline Blank"
+msgstr ""
+
+#: build/index.js:24130
+#: build/index.js:13294
+msgid "Uiactions Check Circle"
+msgstr ""
+
+#: build/index.js:24135
+#: build/index.js:13300
+msgid "Uiactions Check"
+msgstr ""
+
+#: build/index.js:24140
+#: build/index.js:13306
+msgid "Uiactions Chevron Left"
+msgstr ""
+
+#: build/index.js:24145
+#: build/index.js:13312
+msgid "Uiactions Chevron Right"
+msgstr ""
+
+#: build/index.js:24150
+#: build/index.js:13318
+msgid "Uiactions Close"
+msgstr ""
+
+#: build/index.js:24155
+#: build/index.js:13324
+msgid "Uiactions Delete"
+msgstr ""
+
+#: build/index.js:24160
+#: build/index.js:13330
+msgid "Uiactions Done"
+msgstr ""
+
+#: build/index.js:24165
+#: build/index.js:13336
+msgid "Uiactions Download"
+msgstr ""
+
+#: build/index.js:24170
+#: build/index.js:13342
+msgid "Uiactions Expand Less"
+msgstr ""
+
+#: build/index.js:24175
+#: build/index.js:13348
+msgid "Uiactions Expand More"
+msgstr ""
+
+#: build/index.js:24180
+#: build/index.js:13354
+msgid "Uiactions Favorite"
+msgstr ""
+
+#: build/index.js:24185
+#: build/index.js:13360
+msgid "Uiactions Grade"
+msgstr ""
+
+#: build/index.js:24190
+#: build/index.js:13366
+msgid "Uiactions Home"
+msgstr ""
+
+#: build/index.js:24195
+#: build/index.js:13372
+msgid "Uiactions Login"
+msgstr ""
+
+#: build/index.js:24200
+#: build/index.js:13378
+msgid "Uiactions Logout"
+msgstr ""
+
+#: build/index.js:24205
+#: build/index.js:13384
+msgid "Uiactions Menu"
+msgstr ""
+
+#: build/index.js:24210
+#: build/index.js:13390
+msgid "Uiactions More Horiz"
+msgstr ""
+
+#: build/index.js:24215
+#: build/index.js:13396
+msgid "Uiactions More Vert"
+msgstr ""
+
+#: build/index.js:24220
+#: build/index.js:13402
+msgid "Uiactions Open In"
+msgstr ""
+
+#: build/index.js:24225
+#: build/index.js:13408
+msgid "Uiactions Radio Button Checked"
+msgstr ""
+
+#: build/index.js:24230
+#: build/index.js:13414
+msgid "Uiactions Radio Button Unchecked"
+msgstr ""
+
+#: build/index.js:24235
+#: build/index.js:13420
+msgid "Uiactions Refresh"
+msgstr ""
+
+#: build/index.js:24240
+#: build/index.js:13426
+msgid "Uiactions Remove"
+msgstr ""
+
+#: build/index.js:24245
+#: build/index.js:13432
+msgid "Uiactions Search"
+msgstr ""
+
+#: build/index.js:24250
+#: build/index.js:13438
+msgid "Uiactions Settings"
+msgstr ""
+
+#: build/index.js:24255
+#: build/index.js:13444
+msgid "Uiactions Star"
+msgstr ""
+
+#: build/index.js:24260
+#: build/index.js:13450
+msgid "Uiactions Toggle Off"
+msgstr ""
+
+#: build/index.js:24265
+#: build/index.js:13456
+msgid "Uiactions Toggle On"
+msgstr ""
+
+#: build/index.js:24274
+#: build/index.js:13467
+msgid "Google Icons"
+msgstr ""
+
+#: build/index.js:24278
+#: build/index.js:13472
+msgid "Action"
+msgstr ""
+
+#: build/index.js:24281
+#: build/index.js:13476
+msgid "Activities New"
+msgstr ""
+
+#: build/index.js:24284
+#: build/index.js:13480
+msgid "Alert"
+msgstr ""
+
+#: build/index.js:24287
+#: build/index.js:13484
+msgid "Android New"
+msgstr ""
+
+#: build/index.js:24290
+#: build/index.js:13488
+msgid "Audio And Video"
+msgstr ""
+
+#: build/index.js:24293
+#: build/index.js:13492
+msgid "Audio And Video New"
+msgstr ""
+
+#: build/index.js:24296
+#: build/index.js:13496
+msgid "Brand New"
+msgstr ""
+
+#: build/index.js:24299
+#: build/index.js:13500
+msgid "Business And Payments New"
+msgstr ""
+
+#: build/index.js:24302
+#: build/index.js:13504
+msgid "Common Actions New"
+msgstr ""
+
+#: build/index.js:24305
+#: build/index.js:13508
+msgid "Communication"
+msgstr ""
+
+#: build/index.js:24308
+#: build/index.js:13512
+msgid "Communication New"
+msgstr ""
+
+#: build/index.js:24311
+#: build/index.js:13516
+msgid "Content"
+msgstr ""
+
+#: build/index.js:24314
+#: build/index.js:13520
+msgid "Device"
+msgstr ""
+
+#: build/index.js:24317
+#: build/index.js:13524
+msgid "Editor"
+msgstr ""
+
+#: build/index.js:24320
+#: build/index.js:13528
+msgid "File"
+msgstr ""
+
+#: build/index.js:24323
+#: build/index.js:13532
+msgid "Hardware"
+msgstr ""
+
+#: build/index.js:24326
+#: build/index.js:13536
+msgid "Hardware New"
+msgstr ""
+
+#: build/index.js:24332
+#: build/index.js:13544
+msgid "Home New"
+msgstr ""
+
+#: build/index.js:24335
+#: build/index.js:13548
+msgid "Household New"
+msgstr ""
+
+#: build/index.js:24338
+#: build/index.js:13552
+msgid "Image"
+msgstr ""
+
+#: build/index.js:24341
+#: build/index.js:13556
+msgid "Maps"
+msgstr ""
+
+#: build/index.js:24344
+#: build/index.js:13560
+msgid "Maps New"
+msgstr ""
+
+#: build/index.js:24350
+#: build/index.js:13568
+msgid "Notification"
+msgstr ""
+
+#: build/index.js:24353
+#: build/index.js:13572
+msgid "Photo And Image New"
+msgstr ""
+
+#: build/index.js:24356
+#: build/index.js:13576
+msgid "Places"
+msgstr ""
+
+#: build/index.js:24359
+#: build/index.js:13580
+msgid "Privacy And Security New"
+msgstr ""
+
+#: build/index.js:24365
+#: build/index.js:13588
+msgid "Social"
+msgstr ""
+
+#: build/index.js:24368
+#: build/index.js:13592
+msgid "Social New"
+msgstr ""
+
+#: build/index.js:24371
+#: build/index.js:13596
+msgid "Text Formatting New"
+msgstr ""
+
+#: build/index.js:24374
+#: build/index.js:13600
+msgid "Toggle"
+msgstr ""
+
+#: build/index.js:24377
+#: build/index.js:13604
+msgid "Transportation New"
+msgstr ""
+
+#: build/index.js:24380
+#: build/index.js:13608
+msgid "Travel New"
+msgstr ""
+
+#: build/index.js:24383
+#: build/index.js:13612
+msgid "Ui Actions New"
 msgstr ""
 
 #: build/block.json

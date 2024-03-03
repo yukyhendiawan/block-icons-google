@@ -108,7 +108,21 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                     $image_url = $plugin_dir;
                     ?>
 
-                    <img class="step" src="<?php echo esc_url($image_url . 'assets/images/step1.png'); ?>" alt="step">
+                    <p><?php esc_html_e( 'Step 1: Please select the Icon block in the Gutenberg Editor.', 'block-icons-google' ); ?></p>
+
+                    <img class="step" src="<?php echo esc_url($image_url . 'assets/images/step1.png'); ?>" alt="step1">
+
+                    <p><?php esc_html_e( 'Step 2: Click on the Icon Library icon.', 'block-icons-google' ); ?></p>
+
+                    <img class="step" src="<?php echo esc_url($image_url . 'assets/images/step2.png'); ?>" alt="step2">
+
+                    <p><?php esc_html_e( 'Step 3: Choose one of the icons.', 'block-icons-google' ); ?></p>
+
+                    <img class="step" src="<?php echo esc_url($image_url . 'assets/images/step3.png'); ?>" alt="step3">
+
+                    <p><?php esc_html_e( 'Step 4: You can add icon styles (optional).', 'block-icons-google' ); ?></p>
+
+                    <img class="step" src="<?php echo esc_url($image_url . 'assets/images/step4.png'); ?>" alt="step4">
 
                     <p><?php esc_html_e('Now, you are ready to effortlessly add icons to your content through the Gutenberg Editor. If you have any further questions or need additional assistance, feel free to contact us. Happy creating!"', 'block-icons-google'); ?></p>
                 </div>
@@ -219,7 +233,20 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                         </ul>
                     </div>
                     <div class="changelog-list">
-                    <section>
+                        <section>
+                            <h2><?php esc_html_e('Version: 1.1.2', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 25, 2024', 'block-icons-google'); ?></span></h2>
+                            <div class="release">
+                                <ul>
+                                    <li>
+                                        <span class="update"></span>
+                                        <?php esc_html_e('Style Notices', 'block-icons-google'); ?>
+                                        <span class="update"></span>
+                                        <?php esc_html_e('Update Usage Guide', 'block-icons-google'); ?>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>                           
+                        <section>
                             <h2><?php esc_html_e('Version: 1.1.1', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 25, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
                                 <ul>

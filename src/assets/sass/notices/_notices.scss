@@ -1,5 +1,5 @@
 .notice-block-icons {
-    padding: 20px;
+    padding: 25px;
 
     h2 {
         font-size: 20px;
@@ -15,7 +15,7 @@
     }
 
     .box-btn {
-        margin-top: 15px;
+        margin-top: 25px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -26,27 +26,19 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 6px;
-            padding: 6px 14px;
-            font-weight: 600;
-            background: #4df409;
-            border-radius: 20px;
+            padding: 8px 25px;
+            font-weight: 400;
+            border-radius: 3px;
             text-transform: capitalize;
-            color: #4df409;
             line-height: 1.6;
             text-decoration: none;
+            border: 1px solid #045a94;
+            color: #045a94;
 
             svg {
                 width: 20px;
                 width: 20px;
-                fill: #4df409;
-            }
-        }
-
-        a.usage-guide {
-            color: #222;
-
-            svg {
-                fill: #222;
+                fill: #045a94;
             }
         }
 
@@ -54,6 +46,11 @@
             background: linear-gradient(90deg,#072a8c,#7b05aa,#072a8c);
             background-size: 200% 200%;
             animation: block-icons-admin-notices 2.5s ease infinite;
+            color: #e5e5e5;
+
+            svg {
+                fill: #e5e5e5;
+            }
         }
 
         @keyframes block-icons-admin-notices {
