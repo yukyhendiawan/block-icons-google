@@ -234,7 +234,7 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                     </div>
                     <div class="changelog-list">
                         <section>
-                            <h2><?php esc_html_e('Version: 1.1.2', 'block-icons-google'); ?><span><?php esc_html_e('Released on February 25, 2024', 'block-icons-google'); ?></span></h2>
+                            <h2><?php esc_html_e('Version: 1.1.2', 'block-icons-google'); ?><span><?php esc_html_e('Released on March 03, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
                                 <ul>
                                     <li>
