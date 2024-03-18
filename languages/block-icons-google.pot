@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Block Icons: Google Library Collection 1.1.2\n"
+"Project-Id-Version: Block Icons: Google Library Collection 1.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/block-icons-google\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-03-03T12:04:47+07:00\n"
+"POT-Creation-Date: 2024-03-18T17:02:03+07:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: block-icons-google\n"
@@ -27,7 +27,7 @@ msgid "Block Icons: Google Library Collection is a Gutenberg plugin specifically
 msgstr ""
 
 #. Author of the plugin
-#: admin/template/information.php:197
+#: admin/template/information.php:200
 msgid "Yuky Hendiawan"
 msgstr ""
 
@@ -53,258 +53,277 @@ msgid "For usage instructions, please refer to the Usage Guide ."
 msgstr ""
 
 #: admin/notices.php:73
-#: admin/template/information.php:42
+#: admin/template/information.php:45
 msgid "Hire Developer!"
 msgstr ""
 
 #: admin/notices.php:80
-#: admin/template/information.php:55
-#: admin/template/information.php:71
+#: admin/template/information.php:58
+#: admin/template/information.php:74
 msgid "Usage Guide "
 msgstr ""
 
-#: admin/template/information.php:29
+#: admin/template/information.php:32
 msgid "Block Icon is a Gutenberg plugin specifically designed to facilitate displaying a collection of Google icons."
 msgstr ""
 
-#: admin/template/information.php:36
+#: admin/template/information.php:39
 msgid "Donate"
 msgstr ""
 
-#: admin/template/information.php:56
+#: admin/template/information.php:59
 msgid "Report "
 msgstr ""
 
-#: admin/template/information.php:57
+#: admin/template/information.php:60
 msgid "Changelog "
 msgstr ""
 
-#: admin/template/information.php:74
+#: admin/template/information.php:77
 msgid "Welcome to our plugin page! With this plugin, you can easily add icons to your content through the Gutenberg Editor. Here are simple steps to get started:"
 msgstr ""
 
-#: admin/template/information.php:80
+#: admin/template/information.php:83
 msgid "Access the Gutenberg Editor:"
 msgstr ""
 
-#: admin/template/information.php:82
+#: admin/template/information.php:85
 msgid "Open your WordPress editor and select or create a post or page using Gutenberg."
 msgstr ""
 
-#: admin/template/information.php:85
+#: admin/template/information.php:88
 msgid "Go to Gutenberg Media Category Block and Choose an Icons:"
 msgstr ""
 
-#: admin/template/information.php:87
+#: admin/template/information.php:90
 msgid "Locate the \"Media Category\" option within the Gutenberg block. Choose the \"Icons\" and select an icon that suits your needs."
 msgstr ""
 
-#: admin/template/information.php:90
+#: admin/template/information.php:93
 msgid "Click the Icon Library Button:"
 msgstr ""
 
-#: admin/template/information.php:92
+#: admin/template/information.php:95
 msgid "After selecting the icon category, click the \"Icon Library\" button to open the available icon library."
 msgstr ""
 
-#: admin/template/information.php:95
+#: admin/template/information.php:98
 msgid "Choose an Icon:"
 msgstr ""
 
-#: admin/template/information.php:97
+#: admin/template/information.php:100
 msgid "Select one icon from the library. Click on the desired icon to choose it."
 msgstr ""
 
-#: admin/template/information.php:100
+#: admin/template/information.php:103
 msgid "Apply Styles (Optional):"
 msgstr ""
 
-#: admin/template/information.php:102
+#: admin/template/information.php:105
 msgid "If you want to customize the icon style to match your preferences, you can do so after selecting the icon. Choose the style options that complement your page design."
 msgstr ""
 
-#: admin/template/information.php:111
+#: admin/template/information.php:114
 msgid "Step 1: Please select the Icon block in the Gutenberg Editor."
 msgstr ""
 
-#: admin/template/information.php:115
+#: admin/template/information.php:118
 msgid "Step 2: Click on the Icon Library icon."
 msgstr ""
 
-#: admin/template/information.php:119
+#: admin/template/information.php:122
 msgid "Step 3: Choose one of the icons."
 msgstr ""
 
-#: admin/template/information.php:123
+#: admin/template/information.php:126
 msgid "Step 4: You can add icon styles (optional)."
 msgstr ""
 
-#: admin/template/information.php:127
+#: admin/template/information.php:130
 msgid "Now, you are ready to effortlessly add icons to your content through the Gutenberg Editor. If you have any further questions or need additional assistance, feel free to contact us. Happy creating!\""
 msgstr ""
 
-#: admin/template/information.php:147
+#: admin/template/information.php:150
 msgid "Bug Report"
 msgstr ""
 
 #. translators: %s: Theme name
-#: admin/template/information.php:151
+#: admin/template/information.php:154
 msgid "If you encounter any bugs or issues while using the Plugin, we encourage you to promptly report them to us. Reporting bugs is a crucial step in ensuring quick updates and fixes, allowing you to continue experiencing optimal performance with our WordPress Plugin."
 msgstr ""
 
-#: admin/template/information.php:159
+#: admin/template/information.php:162
 msgid "Below are the steps to report a bug:"
 msgstr ""
 
-#: admin/template/information.php:165
+#: admin/template/information.php:168
 msgid "Identify the Bug:"
 msgstr ""
 
-#: admin/template/information.php:166
+#: admin/template/information.php:169
 msgid "Please try to identify and understand the issue or bug you encounter. Ensure to record details on how the bug manifests and its impact on the use of the Plugin."
 msgstr ""
 
-#: admin/template/information.php:170
+#: admin/template/information.php:173
 msgid "Provide Detailed Explanation:"
 msgstr ""
 
-#: admin/template/information.php:171
+#: admin/template/information.php:174
 msgid "When reporting the bug to us, offer a clear and detailed explanation of the problem you are facing."
 msgstr ""
 
-#: admin/template/information.php:175
+#: admin/template/information.php:178
 msgid "Report the Bug:"
 msgstr ""
 
-#: admin/template/information.php:176
+#: admin/template/information.php:179
 msgid "Kindly report the bug through "
 msgstr ""
 
-#: admin/template/information.php:178
+#: admin/template/information.php:181
 msgid "The Block Icons WordPress Plugin forum"
 msgstr ""
 
-#: admin/template/information.php:180
+#: admin/template/information.php:183
 msgid " or via "
 msgstr ""
 
-#: admin/template/information.php:182
+#: admin/template/information.php:185
 msgid "GitHub Issues."
 msgstr ""
 
-#: admin/template/information.php:184
+#: admin/template/information.php:187
 msgid "Include the information you have gathered about the bug in your report."
 msgstr ""
 
-#: admin/template/information.php:191
+#: admin/template/information.php:194
 msgid "Your support and cooperation in reporting the bug are highly appreciated. We will make every effort to address the bug as quickly as possible so that you can continue enjoying the use of the Plugin without disruption."
 msgstr ""
 
-#: admin/template/information.php:196
+#: admin/template/information.php:199
 msgid "Best regards,"
 msgstr ""
 
-#: admin/template/information.php:218
+#: admin/template/information.php:221
 msgid "Changelog"
 msgstr ""
 
-#: admin/template/information.php:223
+#: admin/template/information.php:226
 #: build/index.js:233
 #: build/index.js:206
 msgid "New"
 msgstr ""
 
-#: admin/template/information.php:227
+#: admin/template/information.php:230
 msgid "Update"
 msgstr ""
 
-#: admin/template/information.php:231
+#: admin/template/information.php:234
 msgid "Fix"
 msgstr ""
 
-#: admin/template/information.php:237
-msgid "Version: 1.1.2"
+#: admin/template/information.php:240
+msgid "Version: 1.1.3"
 msgstr ""
 
-#: admin/template/information.php:237
-#: admin/template/information.php:250
-#: admin/template/information.php:269
-msgid "Released on February 25, 2024"
+#: admin/template/information.php:240
+msgid "Released on March 18, 2024"
 msgstr ""
 
-#: admin/template/information.php:242
-msgid "Style Notices"
+#: admin/template/information.php:245
+msgid "Admin Menu"
 msgstr ""
 
-#: admin/template/information.php:244
-msgid "Update Usage Guide"
-msgstr ""
-
-#: admin/template/information.php:250
-msgid "Version: 1.1.1"
+#: admin/template/information.php:249
+msgid "Update Pot"
 msgstr ""
 
 #: admin/template/information.php:255
+msgid "Version: 1.1.2"
+msgstr ""
+
+#: admin/template/information.php:255
+msgid "Released on March 03, 2024"
+msgstr ""
+
+#: admin/template/information.php:260
+msgid "Style Notices"
+msgstr ""
+
+#: admin/template/information.php:264
+msgid "Update Usage Guide"
+msgstr ""
+
+#: admin/template/information.php:270
+msgid "Version: 1.1.1"
+msgstr ""
+
+#: admin/template/information.php:270
+#: admin/template/information.php:289
+msgid "Released on February 25, 2024"
+msgstr ""
+
+#: admin/template/information.php:275
 msgid "Data Escape"
 msgstr ""
 
-#: admin/template/information.php:259
+#: admin/template/information.php:279
 msgid "Plugin Check"
 msgstr ""
 
-#: admin/template/information.php:263
+#: admin/template/information.php:283
 msgid "Rename plugin"
 msgstr ""
 
-#: admin/template/information.php:269
+#: admin/template/information.php:289
 msgid "Version: 1.1.0"
 msgstr ""
 
-#: admin/template/information.php:274
+#: admin/template/information.php:294
 msgid "Text Domain"
 msgstr ""
 
-#: admin/template/information.php:278
+#: admin/template/information.php:298
 msgid "Update Icons"
 msgstr ""
 
-#: admin/template/information.php:282
+#: admin/template/information.php:302
 msgid "Added webpack"
 msgstr ""
 
-#: admin/template/information.php:288
+#: admin/template/information.php:308
 msgid "Version: 1.0.0"
 msgstr ""
 
-#: admin/template/information.php:288
+#: admin/template/information.php:308
 msgid "Released on February 10, 2024"
 msgstr ""
 
-#: admin/template/information.php:293
+#: admin/template/information.php:313
 msgid "Initial release"
 msgstr ""
 
-#: admin/template/sidebar-information.php:8
+#: admin/template/sidebar-information.php:12
 msgid "About Developer"
 msgstr ""
 
-#: admin/template/sidebar-information.php:10
+#: admin/template/sidebar-information.php:14
 msgid "Hello, I'm Yuky Hendiawan, an experienced WordPress developer with over 5 years of expertise."
 msgstr ""
 
-#: admin/template/sidebar-information.php:11
+#: admin/template/sidebar-information.php:15
 msgid "As a Freelancer, I am actively engaged in a variety of WordPress development projects."
 msgstr ""
 
-#: admin/template/sidebar-information.php:12
+#: admin/template/sidebar-information.php:16
 msgid "My expertise includes creating plugins, designing custom themes, tailoring both plugins and themes to meet specific requirements."
 msgstr ""
 
-#: admin/template/sidebar-information.php:13
+#: admin/template/sidebar-information.php:17
 msgid "If you need a WordPress developer, feel free to contact me."
 msgstr ""
 
-#: admin/template/sidebar-information.php:14
+#: admin/template/sidebar-information.php:18
 msgid "Contact:"
 msgstr ""
 

@@ -9,6 +9,9 @@
  * @since       1.0.0
  */
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 // Get the path to the plugin directory
 $plugin_dir = plugin_dir_path(__FILE__);
 
@@ -233,6 +236,21 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                         </ul>
                     </div>
                     <div class="changelog-list">
+                        <section>
+                            <h2><?php esc_html_e('Version: 1.1.3', 'block-icons-google'); ?><span><?php esc_html_e('Released on March 18, 2024', 'block-icons-google'); ?></span></h2>
+                            <div class="release">
+                                <ul>
+                                    <li>
+                                        <span class="fix"></span>
+                                        <?php esc_html_e('Admin Menu', 'block-icons-google'); ?>
+                                    </li>
+                                    <li>
+                                        <span class="update"></span>
+                                        <?php esc_html_e('Update Pot', 'block-icons-google'); ?>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>                           
                         <section>
                             <h2><?php esc_html_e('Version: 1.1.2', 'block-icons-google'); ?><span><?php esc_html_e('Released on March 03, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">

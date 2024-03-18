@@ -1,4 +1,8 @@
 <?php
+
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 $plugin_dir = plugins_url('block-icons-google/');
 
 $image_url = $plugin_dir;
