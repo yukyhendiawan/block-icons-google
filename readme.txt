@@ -1,4 +1,4 @@
-=== Block Icons ===
+=== Block Icons: Google Library Collection ===
 Contributors: yukyhendiawan
 Donate link: https://www.buymeacoffee.com/yukyhendiawan
 Tags: icon, icons, google, font, block
