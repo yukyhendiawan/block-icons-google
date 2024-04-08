@@ -6,8 +6,10 @@ The main advantage of Block Icons: Google Library Collection lies in its simplic
 
 ## Features
 
+- More than 1200+ Icons
 - Font Size
 - Icon Color
+- Hover Icon Color
 - Fill Mode
 - Weight
 - Grade

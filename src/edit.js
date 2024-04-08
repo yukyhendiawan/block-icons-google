@@ -58,6 +58,7 @@ export function Edit(props) {
 		opsz,
 		fontSize,
 		color,
+		hoverColor,
 	} = attributes;
 
 	// State to control whether the Inserter component (icon inserter) is open or closed.
@@ -83,6 +84,22 @@ export function Edit(props) {
 	// Default to an empty string for printedIcon
 	let printedIcon = !isEmpty(namedIcon) ? namedIcon[0].icon : customIcon;
 
+	// State to manage hover state
+	const [isHovered, setIsHovered] = useState(false);
+
+	// Handler for mouse entering the component
+	const handleMouseEnter = () => {
+		setIsHovered(true);
+	};
+
+	// Handler for mouse leaving the component
+	const handleMouseLeave = () => {
+		setIsHovered(false);
+	};
+
+	// Define color based on hover state
+	const currentColor = isHovered ? hoverColor : color;
+
 	// Block controls for alignment
 	const blockControls = (
 		<BlockControls group="block">
@@ -107,6 +124,16 @@ export function Edit(props) {
 					value={color}
 					onChange={(value) =>
 						setAttributes({ color: value })
+					}									
+				/>
+				<label style={{ marginBottom: '8px', display: 'block' }}>
+					{__('Hover color', 'block-icons-google')}
+				</label>
+				<ColorPalette
+					className='block-icons-color'
+					value={hoverColor}
+					onChange={(value) =>
+						setAttributes({ hoverColor: value })
 					}									
 				/>
 				<RangeControl
@@ -177,8 +204,11 @@ export function Edit(props) {
 					fontVariationSettings: `"FILL" ${fill ? 1 : 0}, "wght" ${weight}, "GRAD" ${grade}, "opsz" ${opsz}`,
 					textAlign: justification,
 					fontSize: fontSize,
-					color: color,
+					color: currentColor,
 				},
+				// Attach event handlers
+				onMouseEnter: handleMouseEnter,
+				onMouseLeave: handleMouseLeave,		
 			},
 		};
 	}

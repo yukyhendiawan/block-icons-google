@@ -35,6 +35,7 @@ export default function Save(props) {
 		opsz,
 		fontSize,
 		color,
+		hoverColor,
 	} = props.attributes;
 
 	// If there is no icon and no iconName, don't save anything.
@@ -82,6 +83,7 @@ export default function Save(props) {
 					textAlign: justification,
 					fontSize: fontSize,
 					color: color,
+					"--block-icons-google-hover-color": hoverColor
 				},
 			},
 		};

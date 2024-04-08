@@ -46,6 +46,10 @@
     "color": {
       "type": "string",
       "default": "#333"
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": "#333"
     }
   },
   "textdomain": "block-icons-google",

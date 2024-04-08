@@ -3,8 +3,8 @@ Contributors: yukyhendiawan
 Donate link: https://www.buymeacoffee.com/yukyhendiawan
 Tags: icon, icons, google, font, block
 Requires at least: 6.3
-Tested up to: 6.4
-Stable tag: 1.1.4
+Tested up to: 6.5
+Stable tag: 1.2.4
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -19,8 +19,10 @@ The main advantage of Block Icons: Google Library Collection lies in its simplic
 
 === Features ===
 
+* More than 1200+ Icons
 * Font Size
 * Icon Color
+* Hover Icon Color
 * Fill Mode
 * Weight
 * Grade
@@ -57,7 +59,7 @@ Once the installation is complete, click the "Activate" button that appears.
 
 == Contribute ==
 
-Contributions are always open to those who wish to participate in the further development of this plugin. [Github](https://github.com/yukyhendiawan/block-icons).
+Contributions are always open to those who wish to participate in the further development of this plugin. [Github](https://github.com/yukyhendiawan/block-icons-google).
 
 == Frequently Asked Questions ==
 
@@ -71,6 +73,72 @@ Yes, this plugin works only in the Gutenberg editor.
 
 == Changelog ==
 
-* Initial release
+= Version: 1.2.4 - Released On April 08, 2024 =
+
+**Fixed**
+
+* Fix Link Github
+
+**Updated**
+
+* Adding Hover Color Feature
+
+= Version: 1.1.4 - Released On March 23, 2024 =
+
+**Updated**
+
+* Update Admin Notices
+
+**Fixed**
+
+* Update Pot
+
+= Version: 1.1.3 - Released On March 18, 2024 =
+
+**Fixed**
+
+* Admin Menu
+
+**Updated**
+
+* Update Pot
+
+= Version: 1.1.2 - Released On March 03, 2024 =
+
+**Updated**
+
+* Style Notices
+* Update Usage Guide
+
+= Version: 1.1.1 - Released On February 25, 2024 =
+
+**Fixed**
+
+* Data Escape
+* Plugin Check
+
+**Updated**
+
+* Rename Plugin
+
+= Version: 1.1.0 - Released On February 25, 2024 =
+
+**Fixed**
+
+* Fix Text Domain
+
+**Updated**
+
+* Update Icons
+
+**New**
+
+* Added Webpack
+
+= Version: 1.0.0 - Released On February 10, 2024 =
+
+**New**
+
+* Initial Release
 
 == Upgrade Notice ==

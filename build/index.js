@@ -428,7 +428,8 @@ function Edit(props) {
     grade,
     opsz,
     fontSize,
-    color
+    color,
+    hoverColor
   } = attributes;
 
   // State to control whether the Inserter component (icon inserter) is open or closed.
@@ -452,6 +453,22 @@ function Edit(props) {
 
   // Default to an empty string for printedIcon
   let printedIcon = !(0,lodash__WEBPACK_IMPORTED_MODULE_1__.isEmpty)(namedIcon) ? namedIcon[0].icon : customIcon;
+
+  // State to manage hover state
+  const [isHovered, setIsHovered] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_5__.useState)(false);
+
+  // Handler for mouse entering the component
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  // Handler for mouse leaving the component
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  // Define color based on hover state
+  const currentColor = isHovered ? hoverColor : color;
 
   // Block controls for alignment
   const blockControls = (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_4__.BlockControls, {
@@ -478,6 +495,17 @@ function Edit(props) {
     value: color,
     onChange: value => setAttributes({
       color: value
+    })
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
+    style: {
+      marginBottom: '8px',
+      display: 'block'
+    }
+  }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Hover color', 'block-icons-google')), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.ColorPalette, {
+    className: "block-icons-color",
+    value: hoverColor,
+    onChange: value => setAttributes({
+      hoverColor: value
     })
   }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RangeControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Font Size', 'block-icons-google'),
@@ -552,8 +580,11 @@ function Edit(props) {
           fontVariationSettings: `"FILL" ${fill ? 1 : 0}, "wght" ${weight}, "GRAD" ${grade}, "opsz" ${opsz}`,
           textAlign: justification,
           fontSize: fontSize,
-          color: color
-        }
+          color: currentColor
+        },
+        // Attach event handlers
+        onMouseEnter: handleMouseEnter,
+        onMouseLeave: handleMouseLeave
       }
     };
   }
@@ -37106,7 +37137,8 @@ function Save(props) {
     grade,
     opsz,
     fontSize,
-    color
+    color,
+    hoverColor
   } = props.attributes;
 
   // If there is no icon and no iconName, don't save anything.
@@ -37152,7 +37184,8 @@ function Save(props) {
           fontVariationSettings: `"FILL" ${fill ? 1 : 0}, "wght" ${weight}, "GRAD" ${grade}, "opsz" ${opsz}`,
           textAlign: justification,
           fontSize: fontSize,
-          color: color
+          color: color,
+          "--block-icons-google-hover-color": hoverColor
         }
       }
     };
@@ -37466,7 +37499,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"apiVersion":3,"name":"yuky/block-icons-google","title":"Icon","category":"media","description":"Adding and customizing Google icons directly through the Gutenberg block.","keywords":["google","font","block","icons","svg","graphic","icon"],"attributes":{"title":{"type":"string"},"iconName":{"type":"string"},"justification":{"type":"string"},"fill":{"type":"boolean","default":0},"weight":{"type":"number","default":400},"grade":{"type":"string","default":"0"},"opsz":{"type":"string","default":"24"},"fontSize":{"type":"number","default":70},"color":{"type":"string","default":"#333"}},"textdomain":"block-icons-google","editorScript":"file:./index.js","editorStyle":"file:./editor.css","style":"file:./style.css"}');
+module.exports = /*#__PURE__*/JSON.parse('{"apiVersion":3,"name":"yuky/block-icons-google","title":"Icon","category":"media","description":"Adding and customizing Google icons directly through the Gutenberg block.","keywords":["google","font","block","icons","svg","graphic","icon"],"attributes":{"title":{"type":"string"},"iconName":{"type":"string"},"justification":{"type":"string"},"fill":{"type":"boolean","default":0},"weight":{"type":"number","default":400},"grade":{"type":"string","default":"0"},"opsz":{"type":"string","default":"24"},"fontSize":{"type":"number","default":70},"color":{"type":"string","default":"#333"},"hoverColor":{"type":"string","default":"#333"}},"textdomain":"block-icons-google","editorScript":"file:./index.js","editorStyle":"file:./editor.css","style":"file:./style.css"}');
 
 /***/ })
 

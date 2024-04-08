@@ -25,12 +25,15 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.wp-block-yuky-block-icons {
+.wp-block-yuky-block-icons-google {
   display: flex;
   flex-wrap: wrap;
 }
-.wp-block-yuky-block-icons .box-icon {
+.wp-block-yuky-block-icons-google .box-icon {
   width: 100%;
+}
+.wp-block-yuky-block-icons-google .box-icon span:hover {
+  color: var(--block-icons-google-hover-color) !important;
 }
 
 /*# sourceMappingURL=style.css.map*/
