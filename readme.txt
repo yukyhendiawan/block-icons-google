@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/yukyhendiawan
 Tags: icon, icons, google, font, block
 Requires at least: 6.3
 Tested up to: 6.5
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -72,6 +72,16 @@ No, this plugin is entirely free, and there is no paid version.
 Yes, this plugin works only in the Gutenberg editor.
 
 == Changelog ==
+
+= Version: 1.2.5 - Released On April 08, 2024 =
+
+**Fixed**
+
+* Fix Hover Color
+
+**Updated**
+
+* Changelog
 
 = Version: 1.2.4 - Released On April 08, 2024 =
 

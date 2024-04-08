@@ -237,6 +237,21 @@ $template_sidebar_information = $plugin_dir . 'sidebar-information.php';
                     </div>
                     <div class="changelog-list">
                         <section>
+                            <h2><?php esc_html_e('Version: 1.2.5', 'block-icons-google'); ?><span><?php esc_html_e('Released on April 08, 2024', 'block-icons-google'); ?></span></h2>
+                            <div class="release">
+                                <ul>
+                                    <li>
+                                        <span class="fix"></span>
+                                        <?php esc_html_e('Fix Hover Color', 'block-icons-google'); ?>
+                                    </li>
+                                    <li>
+                                        <span class="update"></span>
+                                        <?php esc_html_e('Changelog', 'block-icons-google'); ?>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </section>                            
+                        <section>
                             <h2><?php esc_html_e('Version: 1.2.4', 'block-icons-google'); ?><span><?php esc_html_e('Released on April 08, 2024', 'block-icons-google'); ?></span></h2>
                             <div class="release">
                                 <ul>
