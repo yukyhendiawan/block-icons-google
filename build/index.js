@@ -454,22 +454,6 @@ function Edit(props) {
   // Default to an empty string for printedIcon
   let printedIcon = !(0,lodash__WEBPACK_IMPORTED_MODULE_1__.isEmpty)(namedIcon) ? namedIcon[0].icon : customIcon;
 
-  // State to manage hover state
-  const [isHovered, setIsHovered] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_5__.useState)(false);
-
-  // Handler for mouse entering the component
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  // Handler for mouse leaving the component
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  // Define color based on hover state
-  const currentColor = isHovered ? hoverColor : color;
-
   // Block controls for alignment
   const blockControls = (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_4__.BlockControls, {
     group: "block"
@@ -580,11 +564,9 @@ function Edit(props) {
           fontVariationSettings: `"FILL" ${fill ? 1 : 0}, "wght" ${weight}, "GRAD" ${grade}, "opsz" ${opsz}`,
           textAlign: justification,
           fontSize: fontSize,
-          color: currentColor
-        },
-        // Attach event handlers
-        onMouseEnter: handleMouseEnter,
-        onMouseLeave: handleMouseLeave
+          color: color,
+          "--block-icons-google-hover-color": hoverColor
+        }
       }
     };
   }
