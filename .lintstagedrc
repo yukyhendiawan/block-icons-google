@@ -1,0 +1,33 @@
+{
+    "*.php": [
+        "npm run check:php:compatibility:56+",
+        "npm run check:php:compatibility:wp:56+",
+        "npm run lint:wpcs:fix",
+        "npm run lint:wpcs"
+    ],
+    "*.js": [
+        "npm run lint:js:src:fix",
+        "npm run lint:js:src",
+        "npm run lint:js:assets:fix",
+        "npm run lint:js:assets"
+    ],
+    "*.scss": [
+        "npm run lint:scss:src:fix",
+        "npm run lint:scss:src"
+    ],    
+    "*.css": [
+        "npm run lint:css:assets:fix",
+        "npm run lint:css:assets"
+    ],
+    "package.json": [
+        "npm run sort:package",
+        "npm run lint:pkg:json"
+    ],
+    "composer.json": [
+        "npm run sort:composer"
+    ],
+    "README.md": [
+        "npm run lint:md:docs",
+        "npx prettier --write README.md"
+    ]
+}

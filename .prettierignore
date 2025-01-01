@@ -1,0 +1,7 @@
+CHANGELOG.md
+composer.lock
+package-lock.json
+*.min.css
+*.css
+*.scss
+*.js

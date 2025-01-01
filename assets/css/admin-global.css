@@ -1,0 +1,60 @@
+.notice-block-icons {
+  padding: 25px;
+}
+.notice-block-icons h2 {
+  font-size: 20px;
+  margin: 0 0 0.8em;
+}
+.notice-block-icons p {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  line-height: 1.2;
+}
+.notice-block-icons .box-btn {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.notice-block-icons .box-btn a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 25px;
+  font-weight: 400;
+  border-radius: 3px;
+  text-transform: capitalize;
+  line-height: 1.6;
+  text-decoration: none;
+  border: 1px solid #045a94;
+  color: #045a94;
+}
+.notice-block-icons .box-btn a svg {
+  width: 20px;
+  width: 20px;
+  fill: #045a94;
+}
+.notice-block-icons .box-btn a.hire-developer {
+  background: linear-gradient(90deg, #072a8c, #7b05aa, #072a8c);
+  background-size: 200% 200%;
+  animation: block-icons-admin-notices 2.5s ease infinite;
+  color: #e5e5e5;
+}
+.notice-block-icons .box-btn a.hire-developer svg {
+  fill: #e5e5e5;
+}
+@keyframes block-icons-admin-notices {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

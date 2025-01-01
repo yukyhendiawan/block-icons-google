@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Theme Coding Standards">
+	<!-- This line provides a description for the ruleset. -->
+	<description>Code standard rules for WordPress themes.</description>
+
+	<!-- 
+		This line sets several flags for PHPCS. 
+		The 'p' flag indicates that the progress of the process will be displayed.
+		The 's' flag indicates that the sniff code will be displayed in all reports.
+	-->
+	<arg value="ps"/>
+
+	<!-- 
+		This line specifies the base path for the files to be checked. 
+		The ./ value indicates the current directory as the base path. 
+	-->
+	<arg name="basepath" value="./"/>
+
+	<!--
+		This line defines the file extension to check. 
+		Here, only PHP files (with .php extension) will be analyzed. 
+		JavaScript and CSS files are excluded from this PHPCS check.
+		Because they are checked separately using the @wordpress/scripts package.  
+	-->
+	<arg name="extensions" value="php"/>
+
+	<!-- 
+		This line specifies the files to be checked. 
+		In this case the dot (.) represents the current directory.
+		So all files in the current directory and its subdirectories will be inspected by PHPCS.
+	-->
+	<file>.</file>
+
+	<!--
+		This line defines the exception pattern. 
+		Files or directories that match this pattern will be excluded from the PHPCS inspection.  
+	-->
+	<exclude-pattern>note.php</exclude-pattern>
+	<exclude-pattern>vendor</exclude-pattern>
+	<exclude-pattern>node_modules</exclude-pattern>
+	<exclude-pattern>.min.js</exclude-pattern>
+	<exclude-pattern>.min.css</exclude-pattern>
+
+	<!--
+	=========================================================================
+	PHPCompatibility RULESET
+	=========================================================================
+	-->
+
+	<!-- 
+		This line specifies the PHPCompatibility ruleset to run. 
+		The PHPCompatibility ruleset checks the compatibility of the code with various PHP versions. 
+	-->
+	<rule ref="PHPCompatibility"/>
+
+	<!-- 
+		This line defines the test version configuration. 
+		It specifies the PHP version range to check for cross-version compatibility. 
+		In this case, the code will be tested against PHP version 5.6 and higher. 
+		The '-' symbol after 5.6 indicates that there is no upper version limit specified.
+	-->
+	<config name="testVersion" value="5.6-"/>
+
+	<!--
+	=========================================================================
+	PHPCompatibilityWP RULESET
+	=========================================================================
+	-->
+
+	<!-- 
+		This line specifies the PHPCompatibilityWP ruleset to run. 
+		The PHPCompatibilityWP ruleset checks the compatibility of the code with WordPress coding standards. 
+	-->
+	<rule ref="PHPCompatibilityWP">
+		<include-pattern>*\.php$</include-pattern>
+	</rule>
+
+	<!--
+	=========================================================================
+	WordPress Coding Standards RULESET
+	=========================================================================
+	-->
+
+	<!--
+		This line specifies the WPCS ruleset to run. 
+		Apply WordPress Coding Standards
+		This rule applies the WordPress Coding Standards to ensure code consistency and adherence
+		to best practices in WordPress theme development.
+	-->
+	<!-- <rule ref="WordPress"/> -->
+	<rule ref="WordPress-Core" />
+	<rule ref="WordPress-Docs" />
+	<rule ref="WordPress-Extra" />
+
+	<!--
+		This line specifies the WordPress Coding Standards rule for Internationalization (I18n).
+
+		The WordPress WP.I18n rule ensures that all translatable texts within a WordPress theme or plugin
+		are properly handled using the translation functions __(), _e(), esc_html__(), and esc_html_e().
+		It checks whether the text domain used in these functions is in line with best practices.
+	-->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array" value="block-icons-google"/>
+		</properties>
+	</rule>
+
+	<!-- 
+		This line defines the minimum supported WordPress version.
+		It is used by various sniffs to enforce coding standards that are compatible with the specified WordPress version.
+		It is advisable to align this value with the minimum WordPress version mentioned in the "Requires at least" tag of the readme.txt file.
+	-->	
+	<config name="minimum_supported_wp_version" value="5.6"/>	
+
+</ruleset>

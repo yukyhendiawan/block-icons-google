@@ -1,0 +1,20 @@
+{
+	"useTabs": true,
+	"printWidth": 80,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"overrides": [
+		{
+			"files": ["package.json", "composer.json"],
+			"options": {
+				"parser": "json"
+			}
+		},
+		{
+			"files": "README.md",
+			"options": {
+				"parser": "markdown"
+			}
+		}
+	]
+}
