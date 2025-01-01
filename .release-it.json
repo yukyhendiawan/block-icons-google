@@ -9,25 +9,6 @@
 		"publish": false
 	},
 	"hooks": {
-		"before:release": [
-			"npm run check:php:compatibility:56+",
-			"npm run check:php:compatibility:wp:56+",
-			"npm run lint:wpcs:fix",
-			"npm run lint:wpcs",			
-			"npm run lint:js:src:fix",
-			"npm run lint:js:src",
-			"npm run lint:js:assets:fix",
-			"npm run lint:js:assets",			
-			"npm run lint:scss:src:fix",
-			"npm run lint:scss:src",			
-			"npm run lint:css:assets:fix",
-			"npm run lint:css:assets",			
-			"npm run sort:package",
-			"npm run lint:pkg:json",			
-			"npm run sort:composer",			
-			"npm run lint:md:docs",
-			"npx prettier --write README.md"			
-		],
 		"after:bump": "bash ./bin/update-version.sh"
 	},	
 	"plugins": {
