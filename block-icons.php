@@ -16,7 +16,7 @@
  * Plugin Name:       Block Icons: Google Library Collection
  * Plugin URI:        https://yukyhendiawan.com
  * Description:       Block Icons: Google Library Collection is a Gutenberg plugin specifically designed to effortlessly showcase a collection of Google icons. With this plugin, you can seamlessly add and customize Google icons directly through the Gutenberg blocks.
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            Yuky Hendiawan
  * Author URI:        https://yukyhendiawan.com/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Rename this for your plugin and update it as you release new versions.
  */
 define( 'BLOCK_ICONS_NAME', 'Block Icons Google' );
-define( 'BLOCK_ICONS_VERSION', '1.3.0' );
+define( 'BLOCK_ICONS_VERSION', '1.3.1' );
 define( 'BLOCK_ICONS_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'BLOCK_ICONS_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'BLOCK_ICONS_ASSETS_URL', plugin_dir_url( __FILE__ ) . 'assets/' );
